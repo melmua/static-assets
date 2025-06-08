@@ -3,66 +3,70 @@
     "question": "How do I book a makeup artist?",
     "answer": "You can book a makeup artist by browsing our directory, selecting a professional, and choosing an available time slot.",
     "iconUrl": "https://raw.githubusercontent.com/melmua/static-assets/refs/heads/main/website/pages/faq/icons/calendar.svg",
-    "iconAlt": "Calendar icon for booking"
+    "iconAlt": "Calendar icon for booking",
+    "category": "Services"
   },
   {
     "question": "What certifications do you offer?",
     "answer": "We offer a range of certifications for makeup artists at different skill levels. Check our Certifications page for more details.",
     "iconUrl": "https://raw.githubusercontent.com/melmua/static-assets/refs/heads/main/website/pages/faq/icons/certificate.svg",
-    "iconAlt": "Certificate icon for certifications"
+    "iconAlt": "Certificate icon for certifications",
+    "category": "Certification"
   },
   {
     "question": "Can I purchase makeup products on Melmua?",
     "answer": "Yes, we have an online store where you can shop for a variety of makeup products curated by our experts.",
     "iconUrl": "https://raw.githubusercontent.com/melmua/static-assets/refs/heads/main/website/pages/faq/icons/shopping-bag.svg",
-    "iconAlt": "Shopping bag icon for products"
-  },
-  {
-    "question": "How can I join the community?",
-    "answer": "Joining the community is easy! Simply sign up on our platform and start participating in discussions and sharing makeup tips.",
-    "iconUrl": "https://raw.githubusercontent.com/melmua/static-assets/refs/heads/main/website/pages/faq/icons/community.svg",
-    "iconAlt": "Community icon for joining"
+    "iconAlt": "Shopping bag icon for products",
+    "category": "Products"
   },
   {
     "question": "How does the location-based search work?",
     "answer": "Our platform uses your location to find makeup artists in your area. You can adjust the search radius and filter artists based on their availability, ratings, and expertise.",
     "iconUrl": "https://raw.githubusercontent.com/melmua/static-assets/refs/heads/main/website/pages/faq/icons/location.svg",
-    "iconAlt": "Location icon for search"
+    "iconAlt": "Location icon for search",
+    "category": "Services"
   },
   {
     "question": "What types of makeup packages are available?",
     "answer": "We offer various packages including bridal makeup, event-ready looks, photoshoot glam, and custom packages. Each artist may have their own specialized packages based on their expertise.",
     "iconUrl": "https://raw.githubusercontent.com/melmua/static-assets/refs/heads/main/website/pages/faq/icons/package.svg",
-    "iconAlt": "Package icon for services"
+    "iconAlt": "Package icon for services",
+    "category": "Services"
   },
   {
     "question": "How do I schedule a trial makeup session?",
     "answer": "You can book a trial session directly from an artist's profile using the 'Book a Trial' button. This allows you to test the artist's skills and discuss your requirements before the main event.",
     "iconUrl": "https://raw.githubusercontent.com/melmua/static-assets/refs/heads/main/website/pages/faq/icons/trial.svg",
-    "iconAlt": "Trial icon for makeup trials"
+    "iconAlt": "Trial icon for makeup trials",
+    "category": "Services"
   },
   {
     "question": "What is the virtual try-on feature?",
     "answer": "Our virtual try-on feature uses augmented reality (AR) technology to let you preview different makeup styles on your face before booking. You can experiment with various looks and share them with your artist.",
     "iconUrl": "https://raw.githubusercontent.com/melmua/static-assets/refs/heads/main/website/pages/faq/icons/virtual-try.svg",
-    "iconAlt": "Virtual try-on icon"
+    "iconAlt": "Virtual try-on icon",
+    "category": "Services"
   },
   {
     "question": "How does the loyalty program work?",
     "answer": "Earn points for every booking you make through Melmua. These points can be redeemed for discounts on future services, free trials, or exclusive offers from our partner brands.",
     "iconUrl": "https://raw.githubusercontent.com/melmua/static-assets/refs/heads/main/website/pages/faq/icons/loyalty.svg",
-    "iconAlt": "Loyalty program icon"
+    "iconAlt": "Loyalty program icon",
+    "category": "Rewards"
   },
   {
     "question": "Can I get a skin analysis consultation?",
     "answer": "Yes, we offer AI-powered skin analysis consultations. Our system can recommend personalized makeup products and services based on your skin type and concerns.",
     "iconUrl": "https://raw.githubusercontent.com/melmua/static-assets/refs/heads/main/website/pages/faq/icons/skin-analysis.svg",
-    "iconAlt": "Skin analysis icon"
+    "iconAlt": "Skin analysis icon",
+    "category": "Services"
   },
   {
     "question": "How do I refer friends to Melmua?",
     "answer": "Use our referral system to invite friends to join Melmua. Both you and your friend will receive credits or free trials when they make their first booking.",
     "iconUrl": "https://raw.githubusercontent.com/melmua/static-assets/refs/heads/main/website/pages/faq/icons/referral.svg",
-    "iconAlt": "Referral icon"
+    "iconAlt": "Referral icon",
+    "category": "Rewards"
   }
 ]

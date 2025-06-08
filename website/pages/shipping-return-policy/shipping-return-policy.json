@@ -1,0 +1,110 @@
+{
+    "title": "Shipping & Return Policy",
+    "lastUpdated": {
+      "date": "June 1, 2025",
+      "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/shipping-return-policy/icons/calendar.svg",
+      "icon_alt": "M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+    },
+    "description": "Shipping and return policy for Melmua's services",
+    "intro": "Melmua Inc. (\"we,\" \"our,\" or \"us\") is committed to providing transparent shipping and return policies. This policy outlines our shipping methods, delivery times, and return procedures.",
+    "sections": [
+      {
+        "id": 1,
+        "title": "Shipping Information",
+        "description": "We offer reliable shipping services to ensure your orders arrive safely and on time.",
+        "items": [
+          {
+            "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/shipping-return-policy/icons/truck.svg",
+            "icon_alt": "M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4",
+            "title": "Processing Time",
+            "description": "We ship within 2–3 business days after your order is confirmed."
+          },
+          {
+            "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/shipping-return-policy/icons/clock.svg",
+            "icon_alt": "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z",
+            "title": "Delivery Times",
+            "description": "Delivery times range from 5–10 business days depending on your location."
+          },
+          {
+            "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/shipping-return-policy/icons/calendar.svg",
+            "icon_alt": "M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z",
+            "title": "Order Processing",
+            "description": "Orders are processed Monday–Friday, excluding holidays."
+          },
+          {
+            "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/shipping-return-policy/icons/calculator.svg",
+            "icon_alt": "M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z",
+            "title": "Shipping Charges",
+            "description": "Shipping charges are calculated at checkout based on your location and order size."
+          },
+          {
+            "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/shipping-return-policy/icons/globe.svg",
+            "icon_alt": "M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z",
+            "title": "Shipping Regions",
+            "description": "Currently shipping within United States and Canada."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Return Policy",
+        "description": "We strive to ensure your complete satisfaction with every purchase.",
+        "items": [
+          {
+            "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/shipping-return-policy/icons/refresh.svg",
+            "icon_alt": "M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15",
+            "title": "Return Window",
+            "description": "Returns accepted within 14 days of delivery on unopened, unused products only."
+          },
+          {
+            "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/shipping-return-policy/icons/chat.svg",
+            "icon_alt": "M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z",
+            "title": "Return Process",
+            "description": "To initiate a return, contact our support team with your order number and issue."
+          },
+          {
+            "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/shipping-return-policy/icons/credit-card.svg",
+            "icon_alt": "M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z",
+            "title": "Refund Processing",
+            "description": "Refunds will be processed to your original payment method within 5–7 days after receiving the returned item."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "International Shipping",
+        "description": "Information about our international shipping policies and procedures.",
+        "content": "Currently, we only ship to the United States and Canada. We are working on expanding our shipping capabilities to other regions. Please check back for updates on international shipping availability.",
+        "highlight": {
+          "title": "Customs and Duties",
+          "description": "For international orders, customers are responsible for any customs duties, taxes, or fees that may be charged by their country's customs authority."
+        }
+      },
+      {
+        "id": 4,
+        "title": "Order Tracking",
+        "description": "How to track your order and what to do if there are issues.",
+        "content": "Once your order ships, you will receive a tracking number via email. You can use this number to track your package's location and estimated delivery date through our website or the carrier's tracking system.",
+        "items": [
+          {
+            "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/shipping-return-policy/icons/exclamation.svg",
+            "icon_alt": "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z",
+            "title": "Delivery Issues",
+            "description": "If you experience any issues with delivery, please contact our support team immediately."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Need Help?",
+        "description": "We're here to help with any shipping or return questions.",
+        "content": "If you have questions about your order, shipping, or returns, our support team is ready to assist you.",
+        "contactLink": {
+          "text": "contact us",
+          "url": "/contact",
+          "email": "support@melmua.com"
+        }
+      }
+    ],
+    "footer": "By placing an order with Melmua, you agree to our shipping and return policies. Thank you for choosing Melmua Inc."
+  } 

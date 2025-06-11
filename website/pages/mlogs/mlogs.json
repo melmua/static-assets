@@ -1,0 +1,263 @@
+{
+  "blogItems": [
+    {
+      "id": "1",
+      "title": "10 Must-Have Summer Skincare Products",
+      "thumbnailUrl": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/1/images/1_thumbnail.png",
+      "searchKeywords": ["skincare", "summer beauty", "sunscreen", "hydration"],
+      "author": "Sarah Johnson",
+      "authorProfilePic": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/authors/sarah-johnson.png",
+      "lastUpdatedAt": "2024-03-15T10:30:00Z",
+      "blogContent": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/1/1_blog.md",
+      "readingTime": 5,
+      "category": {
+        "main": "product-reviews",
+        "sub": "Skincare Reviews"
+      },
+      "excerpt": "Discover the essential skincare products you need this summer to keep your skin healthy and glowing. From lightweight moisturizers to powerful sunscreens...",
+      "relatedPosts": ["2", "3"]
+    },
+    {
+      "id": "2",
+      "title": "Korean Beauty Secrets: 10-Step Skincare Routine",
+      "thumbnailUrl": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/2/images/2_thumbnail.png",
+      "searchKeywords": [
+        "korean skincare",
+        "k-beauty",
+        "skincare routine",
+        "beauty tips"
+      ],
+      "author": "Sarah Kim",
+      "authorProfilePic": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/authors/sarah-johnson.png",
+      "lastUpdatedAt": "2025-03-19T15:45:00Z",
+      "blogContent": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/2/2_blog.md",
+      "readingTime": 12,
+      "category": {
+        "main": "beauty-tutorials",
+        "sub": "Skincare Routines"
+      },
+      "excerpt": "Unlock the secrets of Korean skincare with this detailed 10-step routine guide. Learn how to achieve that coveted glass skin effect.",
+      "relatedPosts": ["6", "12"]
+    },
+    {
+      "id": "3",
+      "title": "Best Luxury Foundations for Every Skin Type",
+      "thumbnailUrl": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/3_thumbnail.png",
+      "searchKeywords": [
+        "foundation",
+        "luxury makeup",
+        "skin types",
+        "makeup review"
+      ],
+      "author": "Emily Zhang",
+      "authorProfilePic": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/authors/sarah-johnson.png",
+      "lastUpdatedAt": "2025-03-18T09:15:00Z",
+      "blogContent": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/3_blog.md",
+      "readingTime": 10,
+      "category": {
+        "main": "product-reviews",
+        "sub": "Makeup Reviews"
+      },
+      "excerpt": "Find your perfect match with our comprehensive guide to luxury foundations. Detailed reviews for every skin type and concern.",
+      "relatedPosts": ["1", "5"]
+    },
+    {
+      "id": "4",
+      "title": "Celebrity-Inspired Met Gala Looks 2025",
+      "thumbnailUrl": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/4/images/4_thumbnail.png",
+      "searchKeywords": [
+        "met gala",
+        "celebrity makeup",
+        "red carpet",
+        "glamour"
+      ],
+      "author": "Jessica Lee",
+      "authorProfilePic": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/authors/sarah-johnson.png",
+      "lastUpdatedAt": "2025-03-17T14:20:00Z",
+      "blogContent": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/4/4_blog.md",
+      "readingTime": 15,
+      "category": {
+        "main": "beauty-trends",
+        "sub": "Celebrity Looks"
+      },
+      "excerpt": "Recreate the most stunning Met Gala 2025 makeup looks with our step-by-step celebrity-inspired tutorials.",
+      "relatedPosts": ["5", "7"]
+    },
+    {
+      "id": "5",
+      "title": "Advanced Contouring Techniques Masterclass",
+      "thumbnailUrl": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/5/images/5_thumbnail.png",
+      "searchKeywords": [
+        "contouring",
+        "makeup techniques",
+        "professional makeup",
+        "face sculpting"
+      ],
+      "author": "Alex Thompson",
+      "authorProfilePic": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/authors/sarah-johnson.png",
+      "lastUpdatedAt": "2025-03-16T11:00:00Z",
+      "blogContent": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/5/5_blog.md",
+      "readingTime": 20,
+      "category": {
+        "main": "beauty-tutorials",
+        "sub": "Advanced Techniques"
+      },
+      "excerpt": "Master the art of contouring with professional techniques. Learn how to sculpt and define your features like a pro.",
+      "relatedPosts": ["3", "4"]
+    },
+    {
+      "id": "6",
+      "title": "Top 5 Vitamin C Serums Compared",
+      "thumbnailUrl": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/6/images/6_thumbnail.png",
+      "searchKeywords": [
+        "vitamin c",
+        "serum",
+        "skincare",
+        "product comparison"
+      ],
+      "author": "Dr. Rachel Kim",
+      "authorProfilePic": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/authors/sarah-johnson.png",
+      "lastUpdatedAt": "2025-03-15T16:30:00Z",
+      "blogContent": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/6/6_blog.md",
+      "readingTime": 8,
+      "category": {
+        "main": "product-reviews",
+        "sub": "Skincare Reviews"
+      },
+      "excerpt": "An in-depth comparison of the top Vitamin C serums on the market. Find out which one is best for your skincare needs.",
+      "relatedPosts": ["2", "12"]
+    },
+    {
+      "id": "7",
+      "title": "Runway-Inspired Summer Makeup Trends",
+      "thumbnailUrl": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/7/images/7_thumbnail.png",
+      "searchKeywords": [
+        "runway makeup",
+        "summer trends",
+        "fashion week",
+        "catwalk beauty"
+      ],
+      "author": "Sofia Martinez",
+      "authorProfilePic": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/authors/sarah-johnson.png",
+      "lastUpdatedAt": "2025-03-14T13:45:00Z",
+      "blogContent": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/7/7_blog.md",
+      "readingTime": 10,
+      "category": {
+        "main": "beauty-trends",
+        "sub": "Runway Beauty"
+      },
+      "excerpt": "Get inspired by the latest runway makeup trends and learn how to adapt them for everyday wear.",
+      "relatedPosts": ["1", "4"]
+    },
+    {
+      "id": "8",
+      "title": "Ultimate Guide to Hair Styling Tools",
+      "thumbnailUrl": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/8/images/8_thumbnail.png",
+      "searchKeywords": [
+        "hair tools",
+        "styling equipment",
+        "hair care",
+        "beauty tools"
+      ],
+      "author": "Lauren Wilson",
+      "authorProfilePic": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/authors/sarah-johnson.png",
+      "lastUpdatedAt": "2025-03-13T10:20:00Z",
+      "blogContent": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/8/8_blog.md",
+      "readingTime": 15,
+      "category": {
+        "main": "product-reviews",
+        "sub": "Tools & Accessories"
+      },
+      "excerpt": "Everything you need to know about hair styling tools, from basic essentials to professional-grade equipment.",
+      "relatedPosts": ["11", "12"]
+    },
+    {
+      "id": "9",
+      "title": "5-Minute Everyday Makeup Tutorial",
+      "thumbnailUrl": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/9/images/9_thumbnail.png",
+      "searchKeywords": [
+        "quick makeup",
+        "everyday looks",
+        "basic tutorial",
+        "makeup basics"
+      ],
+      "author": "Emma Brown",
+      "authorProfilePic": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/authors/sarah-johnson.png",
+      "lastUpdatedAt": "2025-03-12T09:00:00Z",
+      "blogContent": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/9/9_blog.md",
+      "readingTime": 6,
+      "category": {
+        "main": "beauty-tutorials",
+        "sub": "Makeup Basics"
+      },
+      "excerpt": "Perfect your everyday makeup routine with this quick and easy 5-minute tutorial suitable for beginners.",
+      "relatedPosts": ["3", "5"]
+    },
+    {
+      "id": "10",
+      "title": "Viral TikTok Beauty Trends Review",
+      "thumbnailUrl": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/10/images/10_thumbnail.png",
+      "searchKeywords": [
+        "tiktok",
+        "viral trends",
+        "social media",
+        "beauty hacks"
+      ],
+      "author": "Lily Chen",
+      "authorProfilePic": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/authors/sarah-johnson.png",
+      "lastUpdatedAt": "2025-03-11T15:30:00Z",
+      "blogContent": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/10/10_blog.md",
+      "readingTime": 8,
+      "category": {
+        "main": "beauty-trends",
+        "sub": "Social Media Trends"
+      },
+      "excerpt": "We test and review the latest viral TikTok beauty trends to separate the hits from the misses.",
+      "relatedPosts": ["7", "9"]
+    },
+    {
+      "id": "11",
+      "title": "Professional Hair Styling Techniques",
+      "thumbnailUrl": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/11/images/11_thumbnail.png",
+      "searchKeywords": [
+        "hair styling",
+        "professional techniques",
+        "hairstyling tutorial",
+        "hair care"
+      ],
+      "author": "James Rodriguez",
+      "authorProfilePic": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/authors/sarah-johnson.png",
+      "lastUpdatedAt": "2025-03-10T11:15:00Z",
+      "blogContent": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/11/11_blog.md",
+      "readingTime": 18,
+      "category": {
+        "main": "beauty-tutorials",
+        "sub": "Hair Styling"
+      },
+      "excerpt": "Learn professional hair styling techniques from an expert stylist. Master the fundamentals of great hair care.",
+      "relatedPosts": ["8", "12"]
+    },
+    {
+      "id": "12",
+      "title": "Sustainable Beauty Products Guide",
+      "thumbnailUrl": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/12/images/12_thumbnail.png",
+      "searchKeywords": [
+        "sustainable beauty",
+        "eco-friendly",
+        "green beauty",
+        "product review"
+      ],
+      "author": "Maya Patel",
+      "authorProfilePic": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/authors/sarah-johnson.png",
+      "lastUpdatedAt": "2025-03-09T14:45:00Z",
+      "blogContent": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/12/12_blog.md",
+      "readingTime": 12,
+      "category": {
+        "main": "product-reviews",
+        "sub": "Makeup Reviews"
+      },
+      "excerpt": "Your comprehensive guide to sustainable and eco-friendly beauty products that don't compromise on quality.",
+      "relatedPosts": ["6", "8"]
+    }
+  ]
+}

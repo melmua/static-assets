@@ -13,9 +13,11 @@ permissions:
   actions: read           # Allow reading workflow information
 
 jobs:
-  image-optimization:
-    name: Convert Images to AVIF & Create Release
+  setup-and-convert:
+    name: Setup Environment & Convert Images to AVIF
     runs-on: ubuntu-latest
+    outputs:
+      conversion_count: ${{ steps.convert-images.outputs.conversion_count }}
     
     steps:
       # SETUP PHASE: Prepare the environment for image processing
@@ -118,15 +120,37 @@ jobs:
           echo "🎯 Total images converted: $conversion_count"
           echo "✅ Image conversion step completed successfully"
 
-      # MARKDOWN UPDATE LOGIC: Update all markdown files with new AVIF references
-      - name: Update markdown files
-        # CONDITIONAL EXECUTION: Only run if images were actually converted
-        if: steps.convert-images.outputs.conversion_count > 0
+  update-file-references:
+    name: Update File References (MD, JSON, YAML)
+    runs-on: ubuntu-latest
+    needs: setup-and-convert
+    if: needs.setup-and-convert.outputs.conversion_count > 0
+    
+    steps:
+      # SETUP PHASE: Prepare the environment
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # CONFIGURATION: Set up Git user for automated commits
+      - name: Setup Git
         run: |
-          echo "Updating markdown files with new AVIF paths..."
+          # Configure Git to use custom Melmua bot identity
+          git config --global user.name "melmua-git-bot"
+          git config --global user.email "melmua-git-bot@users.noreply.github.com"
+
+      # FILE UPDATE LOGIC: Update all MD, JSON, YAML files with new AVIF references
+      - name: Update file references
+        run: |
+          echo "Updating MD, JSON, and YAML files with new AVIF paths..."
           
-          # DISCOVERY: Find all markdown files in the repository
-          find . -type f -name "*.md" > markdown_files.txt
+          # DISCOVERY: Find all target files in the repository
+          find . -type f \( -name "*.md" -o -name "*.json" -o -name "*.yaml" -o -name "*.yml" \) > target_files.txt
+          
+          echo "📁 Found files to update:"
+          cat target_files.txt
           
           updated_files=""  # Track which files were modified
           
@@ -144,25 +168,25 @@ jobs:
               
               echo "Updating references from $original_relative_path to $avif_relative_path"
               
-              # MARKDOWN UPDATE LOOP: Process each markdown file
-              while IFS= read -r md_file; do
-                # VALIDATION: Ensure markdown file exists
-                if [ -f "$md_file" ]; then
+              # FILE UPDATE LOOP: Process each target file
+              while IFS= read -r target_file; do
+                # VALIDATION: Ensure file exists
+                if [ -f "$target_file" ]; then
                   # SEARCH AND REPLACE: Update image references with multiple patterns
                   file_updated=false
                   
                   # Pattern 1: Full relative path replacement
-                  if grep -q "$original_relative_path" "$md_file"; then
-                    sed -i "s|$original_relative_path|$avif_relative_path|g" "$md_file"
-                    echo "✅ Updated: $md_file (relative path replacement)"
+                  if grep -q "$original_relative_path" "$target_file"; then
+                    sed -i "s|$original_relative_path|$avif_relative_path|g" "$target_file"
+                    echo "✅ Updated: $target_file (relative path replacement)"
                     file_updated=true
                   fi
                   
                   # Pattern 2: URL-embedded path replacement (for cases like https://domain.com/path/to/website/pages/...)
                   # This handles URLs that contain the relative path anywhere within them
-                  if grep -qE "https?://[^/]+.*$original_relative_path" "$md_file"; then
-                    sed -i "s|$original_relative_path|$avif_relative_path|g" "$md_file"
-                    echo "✅ Updated: $md_file (URL-embedded path replacement)"
+                  if grep -qE "https?://[^/]+.*$original_relative_path" "$target_file"; then
+                    sed -i "s|$original_relative_path|$avif_relative_path|g" "$target_file"
+                    echo "✅ Updated: $target_file (URL-embedded path replacement)"
                     file_updated=true
                   fi
                   
@@ -170,28 +194,47 @@ jobs:
                   if [ "$file_updated" = false ]; then
                     original_filename=$(basename "$original_path")
                     avif_filename=$(basename "$avif_path")
-                    if grep -q "$original_filename" "$md_file"; then
-                      sed -i "s|$original_filename|$avif_filename|g" "$md_file"
-                      echo "✅ Updated: $md_file (filename-only replacement)"
+                    if grep -q "$original_filename" "$target_file"; then
+                      sed -i "s|$original_filename|$avif_filename|g" "$target_file"
+                      echo "✅ Updated: $target_file (filename-only replacement)"
                       file_updated=true
                     fi
                   fi
                   
                   # Track updated files
                   if [ "$file_updated" = true ]; then
-                    updated_files="$updated_files $md_file"
+                    updated_files="$updated_files $target_file"
                   fi
                 fi
-              done < markdown_files.txt
+              done < target_files.txt
             fi
           done < converted_images.txt
           
-          echo "📝 Updated markdown files: $updated_files"
+          echo "📝 Updated files (MD/JSON/YAML): $updated_files"
+
+  commit-changes:
+    name: Commit & Push Changes to Main
+    runs-on: ubuntu-latest
+    needs: [setup-and-convert, update-file-references]
+    if: needs.setup-and-convert.outputs.conversion_count > 0
+    
+    steps:
+      # SETUP PHASE: Prepare the environment
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # CONFIGURATION: Set up Git user for automated commits
+      - name: Setup Git
+        run: |
+          # Configure Git to use custom Melmua bot identity
+          git config --global user.name "melmua-git-bot"
+          git config --global user.email "melmua-git-bot@users.noreply.github.com"
 
       # GIT OPERATIONS: Commit and push changes to main branch
       - name: Commit changes to main
-        # CONDITIONAL EXECUTION: Only commit if images were converted
-        if: steps.convert-images.outputs.conversion_count > 0
         run: |
           echo "Committing image optimization changes..."
           
@@ -203,17 +246,39 @@ jobs:
             echo "No changes to commit"
           else
             # COMMIT: Create descriptive commit message with conversion count
-            git commit -m "feat: optimize images to AVIF format - Converted ${{ steps.convert-images.outputs.conversion_count }} images to AVIF - Updated markdown file references - Automated image optimization workflow"
+            git commit -m "feat: optimize images to AVIF format - Converted ${{ needs.setup-and-convert.outputs.conversion_count }} images to AVIF - Updated MD/JSON/YAML file references - Automated image optimization workflow"
             
             # PUSH: Update main branch with optimized images
             git push origin main
             echo "✅ Changes pushed to main branch"
           fi
 
+  create-release:
+    name: Create Release Branch
+    runs-on: ubuntu-latest
+    needs: [setup-and-convert, commit-changes]
+    if: needs.setup-and-convert.outputs.conversion_count > 0
+    outputs:
+      branch_name: ${{ steps.create-branch.outputs.branch_name }}
+    
+    steps:
+      # SETUP PHASE: Prepare the environment
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # CONFIGURATION: Set up Git user for automated commits
+      - name: Setup Git
+        run: |
+          # Configure Git to use custom Melmua bot identity
+          git config --global user.name "melmua-git-bot"
+          git config --global user.email "melmua-git-bot@users.noreply.github.com"
+
       # RELEASE BRANCH CREATION: Create timestamped release branch
       - name: Create release branch
-        # CONDITIONAL EXECUTION: Only create release if changes were made
-        if: steps.convert-images.outputs.conversion_count > 0
+        id: create-branch
         run: |
           # TIMESTAMP GENERATION: Create unique branch name with date and epoch
           current_date=$(date +%d-%m-%y)    # Format: DD-MM-YY
@@ -230,10 +295,29 @@ jobs:
           # OUTPUT: Pass branch name to cleanup step
           echo "branch_name=$branch_name" >> $GITHUB_OUTPUT
 
+  cleanup-old-releases:
+    name: Cleanup Old Release Branches
+    runs-on: ubuntu-latest
+    needs: [setup-and-convert, create-release]
+    if: needs.setup-and-convert.outputs.conversion_count > 0
+    
+    steps:
+      # SETUP PHASE: Prepare the environment
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # CONFIGURATION: Set up Git user for automated commits
+      - name: Setup Git
+        run: |
+          # Configure Git to use custom Melmua bot identity
+          git config --global user.name "melmua-git-bot"
+          git config --global user.email "melmua-git-bot@users.noreply.github.com"
+
       # MAINTENANCE: Clean up old release branches to prevent repository bloat
       - name: Cleanup old release branches
-        # CONDITIONAL EXECUTION: Only run cleanup if new release was created
-        if: steps.convert-images.outputs.conversion_count > 0
         run: |
           echo "Cleaning up old release branches..."
           
@@ -261,19 +345,24 @@ jobs:
           
           echo "✅ Cleanup completed - kept latest 20 release branches"
 
+  workflow-summary:
+    name: Workflow Summary
+    runs-on: ubuntu-latest
+    needs: [setup-and-convert, update-file-references, commit-changes, create-release, cleanup-old-releases]
+    if: always()
+    
+    steps:
       # REPORTING: Provide summary of workflow execution
       - name: Summary
-        # ALWAYS RUN: Show summary regardless of success/failure
-        if: always()
         run: |
           echo "🎉 Image Optimization Workflow Summary"
           echo "======================================"
           
           # CONDITIONAL REPORTING: Show different messages based on conversion results
-          if [ "${{ steps.convert-images.outputs.conversion_count }}" -gt 0 ]; then
+          if [ "${{ needs.setup-and-convert.outputs.conversion_count }}" -gt 0 ]; then
             # SUCCESS CASE: Images were converted and processed
-            echo "✅ Images converted: ${{ steps.convert-images.outputs.conversion_count }}"
-            echo "✅ Markdown files updated"
+            echo "✅ Images converted: ${{ needs.setup-and-convert.outputs.conversion_count }}"
+            echo "✅ File references updated (MD/JSON/YAML)"
             echo "✅ Changes committed to main"
             echo "✅ Release branch created"
             echo "✅ Old branches cleaned up"

@@ -24,17 +24,26 @@ jobs:
       # CONFIGURATION: Set up Git user for automated commits
       - name: Setup Git
         run: |
-          # Configure Git to use GitHub Actions bot identity
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          # Configure Git to use custom Melmua bot identity
+          git config --global user.name "melmua-git-bot"
+          git config --global user.email "melmua-git-bot@users.noreply.github.com"
 
-      # DEPENDENCY INSTALLATION: Install ImageMagick for AVIF conversion
-      - name: Install ImageMagick
+      # DEPENDENCY INSTALLATION: Install Sharp-cli for reliable AVIF conversion
+      - name: Install Sharp-cli for AVIF conversion
         run: |
-          # Update package list to get latest versions
+          # Install Node.js 18 (has excellent Sharp support)
+          curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
           sudo apt-get update
-          # Install ImageMagick with HEIF support for AVIF conversion
-          sudo apt-get install -y imagemagick libheif-dev
+          sudo apt-get install -y nodejs
+          
+          # Install sharp-cli globally - most reliable tool for AVIF conversion
+          npm install -g sharp-cli
+          
+          # Verify installation
+          echo "Checking Sharp-cli installation..."
+          which sharp
+          sharp --version
+          echo "✅ Sharp-cli ready for AVIF conversion"
 
       # CORE LOGIC: Find and convert all non-AVIF images to AVIF format
       - name: Find and convert images to AVIF
@@ -64,9 +73,9 @@ jobs:
               
               echo "Converting: $image_path -> $avif_path"
               
-              # CONVERSION ATTEMPT: Use ImageMagick to convert to AVIF
+              # CONVERSION ATTEMPT: Use Sharp-cli for reliable AVIF conversion
               # Quality 80 provides good balance between file size and image quality
-              if magick "$image_path" -quality 80 "$avif_path"; then
+              if sharp -i "$image_path" -o "$avif_path" -f avif -q 80; then
                 echo "✅ Successfully converted: $image_path"
                 
                 # CLEANUP: Remove original image to save space and avoid duplicates
@@ -109,22 +118,47 @@ jobs:
               original_path=$(echo "$conversion" | cut -d'|' -f1)
               avif_path=$(echo "$conversion" | cut -d'|' -f2)
               
-              # FILENAME EXTRACTION: Get just the filenames for text replacement
-              # This ensures we match references regardless of full path context
-              original_filename=$(basename "$original_path")
-              avif_filename=$(basename "$avif_path")
+              # PATH NORMALIZATION: Remove leading ./ for clean relative paths
+              original_relative_path=$(echo "$original_path" | sed 's|^\./||')
+              avif_relative_path=$(echo "$avif_path" | sed 's|^\./||')
               
-              echo "Updating references from $original_filename to $avif_filename"
+              echo "Updating references from $original_relative_path to $avif_relative_path"
               
               # MARKDOWN UPDATE LOOP: Process each markdown file
               while IFS= read -r md_file; do
                 # VALIDATION: Ensure markdown file exists
                 if [ -f "$md_file" ]; then
-                  # SEARCH AND REPLACE: Update image references if they exist
-                  if grep -q "$original_filename" "$md_file"; then
-                    # Use sed to replace all occurrences of old filename with new
-                    sed -i "s|$original_filename|$avif_filename|g" "$md_file"
-                    echo "✅ Updated: $md_file"
+                  # SEARCH AND REPLACE: Update image references with multiple patterns
+                  file_updated=false
+                  
+                  # Pattern 1: Full relative path replacement
+                  if grep -q "$original_relative_path" "$md_file"; then
+                    sed -i "s|$original_relative_path|$avif_relative_path|g" "$md_file"
+                    echo "✅ Updated: $md_file (relative path replacement)"
+                    file_updated=true
+                  fi
+                  
+                  # Pattern 2: URL-embedded path replacement (for cases like https://domain.com/path/to/website/pages/...)
+                  # This handles URLs that contain the relative path anywhere within them
+                  if grep -qE "https?://[^/]+.*$original_relative_path" "$md_file"; then
+                    sed -i "s|$original_relative_path|$avif_relative_path|g" "$md_file"
+                    echo "✅ Updated: $md_file (URL-embedded path replacement)"
+                    file_updated=true
+                  fi
+                  
+                  # Pattern 3: Filename-only replacement as final fallback
+                  if [ "$file_updated" = false ]; then
+                    original_filename=$(basename "$original_path")
+                    avif_filename=$(basename "$avif_path")
+                    if grep -q "$original_filename" "$md_file"; then
+                      sed -i "s|$original_filename|$avif_filename|g" "$md_file"
+                      echo "✅ Updated: $md_file (filename-only replacement)"
+                      file_updated=true
+                    fi
+                  fi
+                  
+                  # Track updated files
+                  if [ "$file_updated" = true ]; then
                     updated_files="$updated_files $md_file"
                   fi
                 fi

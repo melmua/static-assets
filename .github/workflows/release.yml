@@ -83,8 +83,13 @@ jobs:
                 echo "🗑️ Deleted original: $image_path"
                 
                 # TRACKING: Store conversion mapping for markdown file updates
-                converted_images="$converted_images$image_path|$avif_path\n"
-                ((conversion_count++))
+                if [ -z "$converted_images" ]; then
+                  converted_images="$image_path|$avif_path"
+                else
+                  converted_images="$converted_images\n$image_path|$avif_path"
+                fi
+                conversion_count=$((conversion_count + 1))
+                echo "🔍 Debug: conversion_count now = $conversion_count"
               else
                 # ERROR HANDLING: Log failed conversions but continue processing
                 echo "❌ Failed to convert: $image_path"
@@ -93,10 +98,19 @@ jobs:
           done < images_to_convert.txt
           
           # OUTPUT VARIABLES: Pass data to subsequent steps
+          echo "🔍 Debug: Setting output variables..."
+          echo "🔍 Debug: conversion_count=$conversion_count"
+          echo "🔍 Debug: Writing to GITHUB_OUTPUT..."
           echo "conversion_count=$conversion_count" >> $GITHUB_OUTPUT
+          
+          echo "🔍 Debug: Creating converted_images.txt..."
           echo -e "$converted_images" > converted_images.txt
           
+          echo "🔍 Debug: Checking converted_images.txt content:"
+          cat converted_images.txt || echo "Failed to read converted_images.txt"
+          
           echo "🎯 Total images converted: $conversion_count"
+          echo "✅ Image conversion step completed successfully"
 
       # MARKDOWN UPDATE LOGIC: Update all markdown files with new AVIF references
       - name: Update markdown files

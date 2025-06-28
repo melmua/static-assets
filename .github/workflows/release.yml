@@ -119,6 +119,25 @@ jobs:
           
           echo "🎯 Total images converted: $conversion_count"
           echo "✅ Image conversion step completed successfully"
+          
+          # UPLOAD ARTIFACTS: Pass conversion data to next job
+          echo "📤 Uploading conversion data for next job..."
+          
+      # Upload conversion data as artifact for next job
+      - name: Upload conversion data
+        if: steps.convert-images.outputs.conversion_count > 0
+        uses: actions/upload-artifact@v4
+        with:
+          name: conversion-data
+          path: converted_images.txt
+          retention-days: 1
+          
+      # CLEANUP: Remove temporary files  
+      - name: Cleanup temporary files
+        run: |
+          echo "🧹 Cleaning up temporary files..."
+          rm -f images_to_convert.txt
+          echo "✅ Temporary files cleaned up"
 
   update-file-references:
     name: Update File References (MD, JSON, YAML)
@@ -140,6 +159,13 @@ jobs:
           # Configure Git to use custom Melmua bot identity
           git config --global user.name "melmua-git-bot"
           git config --global user.email "melmua-git-bot@users.noreply.github.com"
+
+      # DOWNLOAD ARTIFACTS: Get conversion data from previous job
+      - name: Download conversion data
+        uses: actions/download-artifact@v4
+        with:
+          name: conversion-data
+          path: .
 
       # FILE UPDATE LOGIC: Update all MD, JSON, YAML files with new AVIF references
       - name: Update file references
@@ -211,6 +237,11 @@ jobs:
           done < converted_images.txt
           
           echo "📝 Updated files (MD/JSON/YAML): $updated_files"
+          
+          # CLEANUP: Remove temporary files
+          echo "🧹 Cleaning up temporary files..."
+          rm -f target_files.txt converted_images.txt
+          echo "✅ Temporary files cleaned up"
 
   commit-changes:
     name: Commit & Push Changes to Main
@@ -238,8 +269,21 @@ jobs:
         run: |
           echo "Committing image optimization changes..."
           
-          # STAGING: Add all changes (new AVIF files, deleted originals, updated markdown)
+          # STAGING: Add all changes, then remove temporary .txt files
+          echo "🔍 Adding all files to staging area..."
           git add .
+          
+          # Remove temporary .txt files from staging
+          echo "🚫 Removing temporary files from staging:"
+          git reset HEAD "*.txt" 2>/dev/null || true
+          echo "✅ Unstaged: *.txt files"
+          
+          echo "📋 Files excluded from commit:"
+          echo "- images_to_convert.txt"
+          echo "- converted_images.txt" 
+          echo "- target_files.txt"
+          echo "- all_release_branches.txt"
+          echo "- sorted_branches.txt"
           
           # COMMIT LOGIC: Only commit if there are actually staged changes
           if git diff --staged --quiet; then
@@ -344,6 +388,11 @@ jobs:
           done
           
           echo "✅ Cleanup completed - kept latest 20 release branches"
+          
+          # CLEANUP: Remove temporary files
+          echo "🧹 Cleaning up temporary files..."
+          rm -f all_release_branches.txt sorted_branches.txt
+          echo "✅ Temporary files cleaned up"
 
   workflow-summary:
     name: Workflow Summary

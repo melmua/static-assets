@@ -1,0 +1,229 @@
+name: Release
+
+# TRIGGER LOGIC: Only run when commits are pushed to main branch
+# This ensures the workflow runs once per push, even if multiple commits are pushed together
+on:
+  push:
+    branches: [main]
+
+jobs:
+  image-optimization:
+    name: Convert Images to AVIF & Create Release
+    runs-on: ubuntu-latest
+    
+    steps:
+      # SETUP PHASE: Prepare the environment for image processing
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          # Fetch full history to access all branches for cleanup
+          fetch-depth: 0
+          # Use GitHub token for authenticated operations
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # CONFIGURATION: Set up Git user for automated commits
+      - name: Setup Git
+        run: |
+          # Configure Git to use GitHub Actions bot identity
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      # DEPENDENCY INSTALLATION: Install ImageMagick for AVIF conversion
+      - name: Install ImageMagick
+        run: |
+          # Update package list to get latest versions
+          sudo apt-get update
+          # Install ImageMagick with HEIF support for AVIF conversion
+          sudo apt-get install -y imagemagick libheif-dev
+
+      # CORE LOGIC: Find and convert all non-AVIF images to AVIF format
+      - name: Find and convert images to AVIF
+        id: convert-images
+        run: |
+          echo "Starting image conversion process..."
+          
+          # DISCOVERY PHASE: Find all image files that need conversion
+          # Exclude .avif files to avoid re-processing already converted images
+          find . -type f \( -iname "*.png" -o -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.webp" -o -iname "*.gif" \) > images_to_convert.txt
+          
+          # TRACKING VARIABLES: Keep track of conversion progress
+          converted_images=""  # Store mapping of old->new paths for markdown updates
+          conversion_count=0   # Count successful conversions for conditional logic
+          
+          # CONVERSION LOOP: Process each image file
+          while IFS= read -r image_path; do
+            # VALIDATION: Ensure file still exists (safety check)
+            if [ -f "$image_path" ]; then
+              # PATH MANIPULATION: Extract directory and filename components
+              dir=$(dirname "$image_path")           # Get directory path
+              filename=$(basename "$image_path")     # Get filename with extension
+              name="${filename%.*}"                  # Remove extension to get base name
+              
+              # TARGET PATH: Create new AVIF path with same location and base name
+              avif_path="$dir/$name.avif"
+              
+              echo "Converting: $image_path -> $avif_path"
+              
+              # CONVERSION ATTEMPT: Use ImageMagick to convert to AVIF
+              # Quality 80 provides good balance between file size and image quality
+              if magick "$image_path" -quality 80 "$avif_path"; then
+                echo "✅ Successfully converted: $image_path"
+                
+                # CLEANUP: Remove original image to save space and avoid duplicates
+                rm "$image_path"
+                echo "🗑️ Deleted original: $image_path"
+                
+                # TRACKING: Store conversion mapping for markdown file updates
+                converted_images="$converted_images$image_path|$avif_path\n"
+                ((conversion_count++))
+              else
+                # ERROR HANDLING: Log failed conversions but continue processing
+                echo "❌ Failed to convert: $image_path"
+              fi
+            fi
+          done < images_to_convert.txt
+          
+          # OUTPUT VARIABLES: Pass data to subsequent steps
+          echo "conversion_count=$conversion_count" >> $GITHUB_OUTPUT
+          echo -e "$converted_images" > converted_images.txt
+          
+          echo "🎯 Total images converted: $conversion_count"
+
+      # MARKDOWN UPDATE LOGIC: Update all markdown files with new AVIF references
+      - name: Update markdown files
+        # CONDITIONAL EXECUTION: Only run if images were actually converted
+        if: steps.convert-images.outputs.conversion_count > 0
+        run: |
+          echo "Updating markdown files with new AVIF paths..."
+          
+          # DISCOVERY: Find all markdown files in the repository
+          find . -type f -name "*.md" > markdown_files.txt
+          
+          updated_files=""  # Track which files were modified
+          
+          # PROCESSING LOOP: Handle each converted image
+          while IFS= read -r conversion; do
+            # VALIDATION: Skip empty lines
+            if [ -n "$conversion" ]; then
+              # PARSING: Extract old and new paths from conversion mapping
+              original_path=$(echo "$conversion" | cut -d'|' -f1)
+              avif_path=$(echo "$conversion" | cut -d'|' -f2)
+              
+              # FILENAME EXTRACTION: Get just the filenames for text replacement
+              # This ensures we match references regardless of full path context
+              original_filename=$(basename "$original_path")
+              avif_filename=$(basename "$avif_path")
+              
+              echo "Updating references from $original_filename to $avif_filename"
+              
+              # MARKDOWN UPDATE LOOP: Process each markdown file
+              while IFS= read -r md_file; do
+                # VALIDATION: Ensure markdown file exists
+                if [ -f "$md_file" ]; then
+                  # SEARCH AND REPLACE: Update image references if they exist
+                  if grep -q "$original_filename" "$md_file"; then
+                    # Use sed to replace all occurrences of old filename with new
+                    sed -i "s|$original_filename|$avif_filename|g" "$md_file"
+                    echo "✅ Updated: $md_file"
+                    updated_files="$updated_files $md_file"
+                  fi
+                fi
+              done < markdown_files.txt
+            fi
+          done < converted_images.txt
+          
+          echo "📝 Updated markdown files: $updated_files"
+
+      # GIT OPERATIONS: Commit and push changes to main branch
+      - name: Commit changes to main
+        # CONDITIONAL EXECUTION: Only commit if images were converted
+        if: steps.convert-images.outputs.conversion_count > 0
+        run: |
+          echo "Committing image optimization changes..."
+          
+          # STAGING: Add all changes (new AVIF files, deleted originals, updated markdown)
+          git add .
+          
+          # COMMIT LOGIC: Only commit if there are actually staged changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            # COMMIT: Create descriptive commit message with conversion count
+            git commit -m "feat: optimize images to AVIF format - Converted ${{ steps.convert-images.outputs.conversion_count }} images to AVIF - Updated markdown file references - Automated image optimization workflow"
+            
+            # PUSH: Update main branch with optimized images
+            git push origin main
+            echo "✅ Changes pushed to main branch"
+          fi
+
+      # RELEASE BRANCH CREATION: Create timestamped release branch
+      - name: Create release branch
+        # CONDITIONAL EXECUTION: Only create release if changes were made
+        if: steps.convert-images.outputs.conversion_count > 0
+        run: |
+          # TIMESTAMP GENERATION: Create unique branch name with date and epoch
+          current_date=$(date +%d-%m-%y)    # Format: DD-MM-YY
+          epoch_seconds=$(date +%s)         # Unix timestamp for uniqueness
+          branch_name="release-${current_date}-${epoch_seconds}"
+          
+          echo "Creating release branch: $branch_name"
+          
+          # BRANCH OPERATIONS: Create and push new release branch from current state
+          git checkout -b "$branch_name"
+          git push origin "$branch_name"
+          
+          echo "✅ Created and pushed release branch: $branch_name"
+          # OUTPUT: Pass branch name to cleanup step
+          echo "branch_name=$branch_name" >> $GITHUB_OUTPUT
+
+      # MAINTENANCE: Clean up old release branches to prevent repository bloat
+      - name: Cleanup old release branches
+        # CONDITIONAL EXECUTION: Only run cleanup if new release was created
+        if: steps.convert-images.outputs.conversion_count > 0
+        run: |
+          echo "Cleaning up old release branches..."
+          
+          # BRANCH DISCOVERY: Get all remote release branches
+          git branch -r | grep "origin/release-" | sed 's|origin/||' | while read branch; do
+            echo "$branch"
+          done > all_release_branches.txt
+          
+          # SORTING LOGIC: Extract epoch timestamps and sort by age (newest first)
+          while IFS= read -r branch; do
+            # REGEX MATCHING: Extract epoch seconds from branch name pattern
+            if [[ $branch =~ release-[0-9]{2}-[0-9]{2}-[0-9]{2}-([0-9]+)$ ]]; then
+              epoch="${BASH_REMATCH[1]}"
+              echo "$epoch:$branch"  # Format: timestamp:branch_name
+            fi
+          done < all_release_branches.txt | sort -nr > sorted_branches.txt
+          
+          # CLEANUP LOGIC: Keep only the 20 most recent branches, delete the rest
+          # tail -n +21 gets all lines starting from line 21 (oldest branches)
+          tail -n +21 sorted_branches.txt | while IFS=':' read -r epoch branch; do
+            echo "🗑️ Deleting old release branch: $branch"
+            # DELETE: Remove old branch from remote repository
+            git push origin --delete "$branch" || echo "Failed to delete $branch"
+          done
+          
+          echo "✅ Cleanup completed - kept latest 20 release branches"
+
+      # REPORTING: Provide summary of workflow execution
+      - name: Summary
+        # ALWAYS RUN: Show summary regardless of success/failure
+        if: always()
+        run: |
+          echo "🎉 Image Optimization Workflow Summary"
+          echo "======================================"
+          
+          # CONDITIONAL REPORTING: Show different messages based on conversion results
+          if [ "${{ steps.convert-images.outputs.conversion_count }}" -gt 0 ]; then
+            # SUCCESS CASE: Images were converted and processed
+            echo "✅ Images converted: ${{ steps.convert-images.outputs.conversion_count }}"
+            echo "✅ Markdown files updated"
+            echo "✅ Changes committed to main"
+            echo "✅ Release branch created"
+            echo "✅ Old branches cleaned up"
+          else
+            # NO-OP CASE: No images needed conversion
+            echo "ℹ️ No images needed conversion"
+          fi 

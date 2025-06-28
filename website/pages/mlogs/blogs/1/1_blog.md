@@ -2,7 +2,7 @@
 
 Summer is synonymous with sunshine, vacations, and outdoor fun. But the heat, humidity, and increased sun exposure can take a toll on your skin. That's why adapting your skincare routine is not just a recommendation—it's a necessity. Here are the 10 essential products that will keep your skin healthy, happy, and glowing all season long.
 
-![A sunny beach with skincare products](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/1/images/sunny-beach.png)
+![A sunny beach with skincare products](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/1/images/sunny-beach.avif)
 
 ## 1. Lightweight Moisturizer
 
@@ -14,7 +14,7 @@ During summer, heavy creams can feel suffocating and clog your pores. Switch to 
 
 This is the golden rule of skincare, especially in summer. A good sunscreen is your best defense against premature aging and skin cancer.
 
-![A bottle of sunscreen on a sandy background](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/1/images/sand-bottle.png)
+![A bottle of sunscreen on a sandy background](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/1/images/sand-bottle.avif)
 
 > "A broad-spectrum sunscreen with an SPF of 30 or higher is non-negotiable. It protects against both UVA (aging) and UVB (burning) rays." - Dr. Eleanor Vance, Dermatologist.
 
@@ -51,7 +51,7 @@ A good toner rebalances your skin's pH after cleansing and preps it for the rest
 
 A weekly clay mask is an excellent way to deep clean your pores and control excess shine.
 
-![A person applying a clay mask](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/1/images/clay-mask.png)
+![A person applying a clay mask](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/1/images/clay-mask.avif)
 
 ### DIY Soothing Clay Mask Recipe
 
@@ -87,7 +87,7 @@ With all the sweat and sunscreen, a thorough cleanse at the end of the day is cr
 
 The skin around your eyes is delicate and prone to puffiness. A lightweight eye gel can work wonders.
 
-![Close-up of eye gel application](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/1/images/eye-gel.png)
+![Close-up of eye gel application](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/1/images/eye-gel.avif)
 
 Look for ingredients like:
 - **Caffeine:** To reduce puffiness and dark circles.

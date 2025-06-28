@@ -10,7 +10,7 @@ website/pages/mlogs/
 ├── blogs/             # Blog content directory
 │   ├── 1/            # Blog post directories (numbered)
 │   │   ├── images/   # Blog-specific images
-│   │   │   └── 1_thumbnail.png
+│   │   │   └── 1_thumbnail.avif
 │   │   └── 1_blog.md # Blog content file
 │   └── ...
 └── authors/          # Author profile pictures
@@ -72,7 +72,7 @@ Your content here in any valid Markdown format...
 1. Add thumbnail image:
    - Name format: `<blog-id>_thumbnail.png`
    - Location: `blogs/<blog-id>/images/`
-   - Example: `blogs/13/images/13_thumbnail.png`
+   - Example: `blogs/13/images/13_thumbnail.avif`
    - URL format in JSON: `https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/<blog-id>/images/<blog-id>_thumbnail.png`
 
 2. Blog content images:

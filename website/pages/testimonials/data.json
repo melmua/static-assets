@@ -5,7 +5,7 @@
       "author": "Sarah M.",
       "role": "Makeup Enthusiast",
       "rating": 5,
-      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user1.png",
+      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user1.avif",
       "service": "booking"
     },
     {
@@ -14,7 +14,7 @@
       "author": "Jamee K.",
       "role": "Professional MUA",
       "rating": 5,
-      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user1.png",
+      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user1.avif",
       "service": "consultations"
     },
     {
@@ -23,7 +23,7 @@
       "author": "Emily Chen",
       "role": "Regular Client",
       "rating": 5,
-      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user2.png",
+      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user2.avif",
       "service": "booking"
     },
     {
@@ -32,7 +32,7 @@
       "author": "Priya Sharma",
       "role": "Bride",
       "rating": 5,
-      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user1.png",
+      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user1.avif",
       "service": "booking"
     },
     {
@@ -41,7 +41,7 @@
       "author": "Lisa Thompson",
       "role": "Makeup Artist",
       "rating": 5,
-      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user2.png",
+      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user2.avif",
       "service": "consultations"
     },
     {
@@ -50,7 +50,7 @@
       "author": "Rachel Kim",
       "role": "Regular Client",
       "rating": 5,
-      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user1.png",
+      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user1.avif",
       "service": "booking"
     },
     {
@@ -59,7 +59,7 @@
       "author": "Sarah M.",
       "role": "Marketing Executive",
       "rating": 5,
-      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user2.png",
+      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user2.avif",
       "service": "styling"
     },
     {
@@ -68,7 +68,7 @@
       "author": "Lisa Chen",
       "role": "Beauty Enthusiast",
       "rating": 5,
-      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user1.png",
+      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user1.avif",
       "service": "products"
     },
     {
@@ -77,7 +77,7 @@
       "author": "Amanda Wilson",
       "role": "Entrepreneur",
       "rating": 5,
-      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user2.png",
+      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user2.avif",
       "service": "consultations"
     },
     {
@@ -86,7 +86,7 @@
       "author": "Maria Rodriguez",
       "role": "Beauty Enthusiast",
       "rating": 5,
-      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user1.png",
+      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user1.avif",
       "service": "consultations"
     },
     {
@@ -95,7 +95,7 @@
       "author": "Amanda Wilson",
       "role": "Entrepreneur",
       "rating": 5,
-      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user2.png",
+      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user2.avif",
       "service": "styling"
     },
     {
@@ -104,7 +104,7 @@
       "author": "Rachel Green",
       "role": "Teacher",
       "rating": 5,
-      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user1.png",
+      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user1.avif",
       "service": "styling"
     },
     {
@@ -113,7 +113,7 @@
       "author": "Maria Rodriguez",
       "role": "Student",
       "rating": 5,
-      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user2.png",
+      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user2.avif",
       "service": "products"
     },
     {
@@ -122,7 +122,7 @@
       "author": "Emma Davis",
       "role": "Model",
       "rating": 5,
-      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user1.png",
+      "avatar": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/testimonials/avatars/user1.avif",
       "service": "products"
     }
   ]

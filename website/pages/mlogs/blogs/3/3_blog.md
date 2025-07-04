@@ -38,24 +38,22 @@ We consulted **Emily Zhang**, celebrity makeup artist and luxury beauty consulta
 
 ### For Oily/Acne-Prone Skin
 
-
-![Foundation1](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/blog3_img3.avif)
-
 - **Estée Lauder Double Wear Stay-in-Place Foundation**  
   *Matte, long-wear, sweat-proof. Controls shine without looking cakey.*
 
+  ![Foundation1](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/blog3_img3.avif)
 
-
-![Foundation2](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/blog3_img4.jpg)
 
 - **Dior Forever Matte Foundation**  
   *Breathable formula with a natural-matte finish. Good oil control, feels lightweight.*
 
+![Foundation2](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/blog3_img4.jpg)
 
-![Foundation3](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/blog3_img5.jpg)
 
 - **Armani Power Fabric+ Foundation**  
   *Buildable full coverage that doesn’t clog pores. Great for events or long days.*
+
+  ![Foundation3](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/blog3_img5.jpg)
 
 ### For Dry Skin
 

@@ -13,6 +13,8 @@ With so many luxury foundation options on the market, choosing the right one can
 
 ### Overview of Makeup Reviews
 
+![Foundation](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/blog3_fnd2.jpg)
+
 A good foundation does more than just even out skin tone — it should *complement your skin type*, *work with your skincare*, and *enhance your natural glow*. When reviewing high-end foundations, we look at:
 
 - **Coverage** (light, buildable, full)
@@ -36,11 +38,21 @@ We consulted **Emily Zhang**, celebrity makeup artist and luxury beauty consulta
 
 ### For Oily/Acne-Prone Skin
 
+
+![Foundation1](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/blog3_img3.avif)
+
 - **Estée Lauder Double Wear Stay-in-Place Foundation**  
   *Matte, long-wear, sweat-proof. Controls shine without looking cakey.*
 
+
+
+![Foundation2](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/blog3_img4.jpg)
+
 - **Dior Forever Matte Foundation**  
   *Breathable formula with a natural-matte finish. Good oil control, feels lightweight.*
+
+
+![Foundation3](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/blog3_img5.jpg)
 
 - **Armani Power Fabric+ Foundation**  
   *Buildable full coverage that doesn’t clog pores. Great for events or long days.*

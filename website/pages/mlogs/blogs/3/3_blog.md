@@ -113,7 +113,7 @@ We consulted **Emily Zhang**, celebrity makeup artist and luxury beauty consulta
 - **Best for:** Natural makeup looks, dry skin
 - **Why we love it:** Never patchy on dry areas, cult-favorite status
 
-![Giorgio Armani Foundation](https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80&fm=jpg)
+![Giorgio Armani Foundation](https://images.unsplash.com/photo-1582735689369-4fe89db7114c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80&fm=jpg)
 
 #### 3. Clé de Peau Radiant Fluid Foundation Natural
 - **Coverage:** Light to medium
@@ -121,7 +121,7 @@ We consulted **Emily Zhang**, celebrity makeup artist and luxury beauty consulta
 - **Best for:** "Your skin but better" looks
 - **Why we love it:** Luxuriously hydrating formula
 
-![Clé de Peau Foundation](https://images.unsplash.com/photo-1556228720-195a672e8a03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80&fm=jpg)
+![Clé de Peau Foundation](https://images.unsplash.com/photo-1571781926291-c477ebfd024b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80&fm=jpg)
 
 ---
 
@@ -135,7 +135,7 @@ We consulted **Emily Zhang**, celebrity makeup artist and luxury beauty consulta
 - **Best for:** Everyday wear, natural makeup
 - **Why we love it:** Blurs pores without over-drying
 
-![Chanel Foundation](https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80&fm=jpg)
+![Chanel Foundation](https://images.unsplash.com/photo-1582735689369-4fe89db7114c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80&fm=jpg)
 
 #### 2. Pat McGrath Skin Fetish Sublime Perfection Foundation
 - **Coverage:** Customizable
@@ -143,7 +143,7 @@ We consulted **Emily Zhang**, celebrity makeup artist and luxury beauty consulta
 - **Best for:** Professional settings, photo-ready looks
 - **Why we love it:** Adapts well across different skin zones
 
-![Pat McGrath Foundation](https://images.unsplash.com/photo-1556228720-195a672e8a03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80&fm=jpg)
+![Pat McGrath Foundation](https://images.unsplash.com/photo-1571781926291-c477ebfd024b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80&fm=jpg)
 
 ---
 
@@ -157,7 +157,7 @@ We consulted **Emily Zhang**, celebrity makeup artist and luxury beauty consulta
 - **Best for:** Sensitive skin, rosacea
 - **Why we love it:** Non-comedogenic and fragrance-free
 
-![Sisley Foundation](https://images.unsplash.com/photo-1556228720-195a672e8a03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80&fm=jpg)
+![Sisley Foundation](https://images.unsplash.com/photo-1582735689369-4fe89db7114c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80&fm=jpg)
 
 #### 2. Lancôme Teint Idole Ultra Wear Care & Glow
 - **Coverage:** Medium to full
@@ -165,13 +165,13 @@ We consulted **Emily Zhang**, celebrity makeup artist and luxury beauty consulta
 - **Best for:** Long wear needs, sensitive skin
 - **Why we love it:** Dermatologist-tested with added skincare benefits
 
-![Lancôme Foundation](https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80&fm=jpg)
+![Lancôme Foundation](https://images.unsplash.com/photo-1571781926291-c477ebfd024b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80&fm=jpg)
 
 ---
 
 ## Application Masterclass
 
-![Makeup Application](https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80&fm=jpg)
+![Makeup Application](https://images.unsplash.com/photo-1582735689369-4fe89db7114c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80&fm=jpg)
 
 ### 🎨 How to Apply Luxury Foundation Like a Pro
 
@@ -201,7 +201,7 @@ We consulted **Emily Zhang**, celebrity makeup artist and luxury beauty consulta
 
 ## Pro Tips & Techniques
 
-![Makeup Tools](https://images.unsplash.com/photo-1556228720-195a672e8a03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80&fm=jpg)
+![Makeup Tools](https://images.unsplash.com/photo-1571781926291-c477ebfd024b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80&fm=jpg)
 
 ### 🔥 Advanced Application Methods
 

@@ -189,7 +189,7 @@ We consulted **Emily Zhang**, celebrity makeup artist and luxury beauty consulta
 
 <div style="text-align: center; margin: 20px 0;">
 
-![La Mer Foundation](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/mlog3_la_mer1.avif)
+![La Mer Foundation](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/mlog3_la_mer2.jpg)
 
 </div>
 

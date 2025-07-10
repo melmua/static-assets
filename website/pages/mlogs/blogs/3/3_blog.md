@@ -206,7 +206,7 @@ We consulted **Emily Zhang**, celebrity makeup artist and luxury beauty consulta
 
 <div style="text-align: center; margin: 20px 0;">
 
-![Giorgio Armani Foundation](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/mlog3_armani_dry.webp)
+![Giorgio Armani Foundation](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/mlog3_armani_dry.jpg)
 
 </div>
 
@@ -267,7 +267,7 @@ We consulted **Emily Zhang**, celebrity makeup artist and luxury beauty consulta
 
 <div style="text-align: center; margin: 20px 0;">
 
-![Pat McGrath Foundation](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/mlog3_pat_mcgrath.webp)
+![Pat McGrath Foundation](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/mlog3_pat_mcgrath.jpg)
 
 </div>
 
@@ -311,7 +311,7 @@ We consulted **Emily Zhang**, celebrity makeup artist and luxury beauty consulta
 
 <div style="text-align: center; margin: 20px 0;">
 
-![Lancôme Foundation](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/mlog3_lancome.webp)
+![Lancôme Foundation](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/mlog3_lancome.jpg)
 
 </div>
 

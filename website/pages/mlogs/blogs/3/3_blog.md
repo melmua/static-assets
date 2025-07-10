@@ -143,6 +143,12 @@ We consulted **Emily Zhang**, celebrity makeup artist and luxury beauty consulta
 
 #### 2. Dior Forever Matte Foundation
 
+<div style="text-align: center; margin: 20px 0;">
+
+![Dior Foundation](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/mlog3_dior.jpg)
+
+</div>
+
 <div style="background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #ef4444;">
 
 - **Coverage:** Medium to full
@@ -152,13 +158,13 @@ We consulted **Emily Zhang**, celebrity makeup artist and luxury beauty consulta
 
 </div>
 
+#### 3. Armani Power Fabric+ Foundation
+
 <div style="text-align: center; margin: 20px 0;">
 
-![Dior Foundation](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/blog3_img4.jpg)
+![Armani Foundation](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/nlog3_armani.avif)
 
 </div>
-
-#### 3. Armani Power Fabric+ Foundation
 
 <div style="background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #ef4444;">
 
@@ -166,12 +172,6 @@ We consulted **Emily Zhang**, celebrity makeup artist and luxury beauty consulta
 - **Finish:** Natural
 - **Best for:** Special occasions, photo shoots
 - **Why we love it:** Doesn't clog pores, perfect for sensitive acne-prone skin ✨
-
-</div>
-
-<div style="text-align: center; margin: 20px 0;">
-
-![Armani Foundation](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/blog3_img5.jpg)
 
 </div>
 
@@ -187,6 +187,12 @@ We consulted **Emily Zhang**, celebrity makeup artist and luxury beauty consulta
 
 #### 1. La Mer Soft Fluid Long Wear Foundation
 
+<div style="text-align: center; margin: 20px 0;">
+
+![La Mer Foundation](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/mlog3_la_mer.jpeg)
+
+</div>
+
 <div style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #f59e0b;">
 
 - **Coverage:** Light to medium
@@ -198,6 +204,12 @@ We consulted **Emily Zhang**, celebrity makeup artist and luxury beauty consulta
 
 #### 2. Giorgio Armani Luminous Silk Foundation
 
+<div style="text-align: center; margin: 20px 0;">
+
+![Giorgio Armani Foundation](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/mlog3_armani_dry.webp)
+
+</div>
+
 <div style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #f59e0b;">
 
 - **Coverage:** Light to medium
@@ -208,6 +220,12 @@ We consulted **Emily Zhang**, celebrity makeup artist and luxury beauty consulta
 </div>
 
 #### 3. Clé de Peau Radiant Fluid Foundation Natural
+
+<div style="text-align: center; margin: 20px 0;">
+
+![Clé de Peau Foundation](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/mlog3_peau.avif)
+
+</div>
 
 <div style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #f59e0b;">
 
@@ -230,6 +248,12 @@ We consulted **Emily Zhang**, celebrity makeup artist and luxury beauty consulta
 
 #### 1. Chanel Les Beiges Healthy Glow Foundation
 
+<div style="text-align: center; margin: 20px 0;">
+
+![Chanel Foundation](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/mlog3_les_beiges.jpg)
+
+</div>
+
 <div style="background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #6366f1;">
 
 - **Coverage:** Light to medium
@@ -240,6 +264,12 @@ We consulted **Emily Zhang**, celebrity makeup artist and luxury beauty consulta
 </div>
 
 #### 2. Pat McGrath Skin Fetish Sublime Perfection Foundation
+
+<div style="text-align: center; margin: 20px 0;">
+
+![Pat McGrath Foundation](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/mlog3_pat_mcgrath.webp)
+
+</div>
 
 <div style="background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #6366f1;">
 
@@ -262,6 +292,12 @@ We consulted **Emily Zhang**, celebrity makeup artist and luxury beauty consulta
 
 #### 1. Sisley Phyto-Teint Nude Foundation
 
+<div style="text-align: center; margin: 20px 0;">
+
+![Sisley Foundation](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/mlog3_phyto_lint.jpg)
+
+</div>
+
 <div style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #22c55e;">
 
 - **Coverage:** Light to medium
@@ -272,6 +308,12 @@ We consulted **Emily Zhang**, celebrity makeup artist and luxury beauty consulta
 </div>
 
 #### 2. Lancôme Teint Idole Ultra Wear Care & Glow
+
+<div style="text-align: center; margin: 20px 0;">
+
+![Lancôme Foundation](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/3/images/mlog3_lancome.webp)
+
+</div>
 
 <div style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #22c55e;">
 

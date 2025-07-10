@@ -18,13 +18,13 @@
 
 <div style="background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%); padding: 20px; border-radius: 12px; border-left: 4px solid #ec4899;">
 
-- [Why This Guide Matters](#-why-this-guide-matters) 💫
-- [What Makes a Great Foundation](#-what-makes-a-great-foundation) 🎯
-- [Expert Insights](#-expert-insights) 💬
-- [Foundation Recommendations by Skin Type](#-foundation-recommendations-by-skin-type) 💄
-- [Application Masterclass](#-application-masterclass) 🎨
-- [Pro Tips & Techniques](#-pro-tips--techniques) 🔥
-- [Final Thoughts](#-final-thoughts) ✨
+- [Why This Guide Matters](#why-this-guide-matters) 💫
+- [What Makes a Great Foundation](#what-makes-a-great-foundation) 🎯
+- [Expert Insights](#expert-insights) 💬
+- [Foundation Recommendations by Skin Type](#foundation-recommendations-by-skin-type) 💄
+- [Application Masterclass](#application-masterclass) 🎨
+- [Pro Tips & Techniques](#pro-tips--techniques) 🔥
+- [Final Thoughts](#final-thoughts) ✨
 
 </div>
 

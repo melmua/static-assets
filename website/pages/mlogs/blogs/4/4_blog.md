@@ -116,6 +116,11 @@ We consulted **Melmua**, veteran MUA and red carpet consultant, for her expert i
 
 ### 1. 🌟 Lupita Nyong'o's Regal Afro-Glam
 
+<div style="text-align: center; margin: 20px 0;">
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/4/images/mlog4_lupita.jpg" alt="Lupita Nyong'o's Met Gala Look" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+<em>Lupita Nyong'o's stunning Met Gala appearance showcasing natural beauty and cultural pride</em>
+</div>
+
 <div style="background: white; padding: 20px; border-radius: 10px; margin: 15px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 
 **Look:** Sculptural afro-crown with bronze-drenched skin
@@ -131,6 +136,11 @@ We consulted **Melmua**, veteran MUA and red carpet consultant, for her expert i
 </div>
 
 ### 2. 🎭 Janelle Monáe's Futuristic Braid Beauty
+
+<div style="text-align: center; margin: 20px 0;">
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/4/images/mlog4_janelle.jpeg" alt="Janelle Monáe's Met Gala Look" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+<em>Janelle Monáe's innovative geometric braid design and hyper-gloss beauty</em>
+</div>
 
 <div style="background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #ef4444;">
 
@@ -148,6 +158,11 @@ We consulted **Melmua**, veteran MUA and red carpet consultant, for her expert i
 
 ### 3. 👑 Zendaya's Double Homage
 
+<div style="text-align: center; margin: 20px 0;">
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/4/images/mlog4_zendayaa.jpg" alt="Zendaya's Met Gala Look" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+<em>Zendaya's stunning double appearance honoring Black beauty icons</em>
+</div>
+
 <div style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #f59e0b;">
 
 **Look:** Double appearance honoring Donyale Luna and Josephine Baker
@@ -164,6 +179,11 @@ We consulted **Melmua**, veteran MUA and red carpet consultant, for her expert i
 
 ### 4. 💎 Ayo Edebiri's Clean Classic
 
+<div style="text-align: center; margin: 20px 0;">
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/4/images/mlog4_ayo.jpg" alt="Ayo Edebiri's Met Gala Look" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+<em>Ayo Edebiri's timeless classic beauty with vintage-inspired elegance</em>
+</div>
+
 <div style="background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #6366f1;">
 
 **Look:** Clean, classic skin with vintage 60s liner
@@ -179,6 +199,11 @@ We consulted **Melmua**, veteran MUA and red carpet consultant, for her expert i
 </div>
 
 ### 5. ✨ Colman Domingo's Monochrome Metallics
+
+<div style="text-align: center; margin: 20px 0;">
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/4/images/mlog4_coleman.avif" alt="Colman Domingo's Met Gala Look" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+<em>Colman Domingo's sophisticated monochrome metallic beauty</em>
+</div>
 
 <div style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #22c55e;">
 
@@ -199,6 +224,11 @@ We consulted **Melmua**, veteran MUA and red carpet consultant, for her expert i
 ---
 
 ## 🎨 Application Masterclass
+
+<div style="text-align: center; margin: 20px 0;">
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/4/images/mlog4_img1.jpg" alt="Met Gala Beauty Application" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+<em>Master the art of red carpet beauty with these professional techniques</em>
+</div>
 
 <div style="background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%); padding: 25px; border-radius: 15px; border: 2px solid #ec4899;">
 
@@ -222,6 +252,12 @@ We consulted **Melmua**, veteran MUA and red carpet consultant, for her expert i
 </div>
 
 #### Step 2: Eye Artistry ✨
+
+<div style="text-align: center; margin: 20px 0;">
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/4/images/mlog4_img3.avif" alt="Eye Artistry Techniques" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+<em>Perfect your eye artistry with these professional techniques</em>
+</div>
+
 <div style="background: white; padding: 20px; border-radius: 10px; margin: 15px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 
 **Classic Winged Liner:**
@@ -312,10 +348,9 @@ We consulted **Melmua**, veteran MUA and red carpet consultant, for her expert i
 
 ## ✨ Final Thoughts
 
-<div style="text-align: center; margin: 30px 0;">
-
-*The Met Gala teaches us that beauty is about celebration, storytelling, and cultural pride*
-
+<div style="text-align: center; margin: 20px 0;">
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/4/images/mlog4_final.jpg" alt="Met Gala Beauty Finale" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+<em>The Met Gala teaches us that beauty is about celebration, storytelling, and cultural pride</em>
 </div>
 
 <div style="background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%); padding: 25px; border-radius: 15px; border: 2px solid #ec4899;">

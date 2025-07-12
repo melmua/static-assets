@@ -78,9 +78,9 @@ The 2025 Met Gala theme was a powerful tribute to Black fashion and beauty:
 
 <div style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); padding: 25px; border-radius: 15px; border: 2px solid #22c55e;">
 
-We consulted **Jessica Lee**, veteran MUA and red carpet consultant, for her expert insights on 2025's Met Gala glam:
+We consulted **Melmua**, veteran MUA and red carpet consultant, for her expert insights on 2025's Met Gala glam:
 
-### 💬 Jessica's Red Carpet Beauty Rules
+### 💬 Melmua's Red Carpet Beauty Rules
 
 <div style="background: white; padding: 20px; border-radius: 10px; margin: 15px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 

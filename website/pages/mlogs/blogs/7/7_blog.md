@@ -78,9 +78,9 @@ The SS25 runways in New York, Milan, and Paris showcased a new approach to summe
 
 <div style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); padding: 25px; border-radius: 15px; border: 2px solid #22c55e;">
 
-We consulted **Sofia Martinez**, runway makeup lead and creative consultant, for expert insights:
+We consulted **Melmua**, runway makeup lead and creative consultant, for expert insights:
 
-### 💬 Sofia's Runway-to-Reality Rules
+### 💬 Melmua's Runway-to-Reality Rules
 
 <div style="background: white; padding: 20px; border-radius: 10px; margin: 15px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 

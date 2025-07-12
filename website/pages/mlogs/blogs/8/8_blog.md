@@ -78,9 +78,9 @@ Professional hair styling requires understanding the different types of tools an
 
 <div style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); padding: 25px; border-radius: 15px; border: 2px solid #22c55e;">
 
-We consulted **Lauren Wilson**, celebrity hair stylist and salon owner, for expert insights:
+We consulted **Melmua**, celebrity hair stylist and salon owner, for expert insights:
 
-### 💬 Lauren's Tool Mastery Rules
+### 💬 Melmua's Tool Mastery Rules
 
 <div style="background: white; padding: 20px; border-radius: 10px; margin: 15px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 

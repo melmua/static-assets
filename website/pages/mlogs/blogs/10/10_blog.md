@@ -79,9 +79,9 @@ The key to successfully navigating TikTok beauty trends is understanding what ma
 
 <div style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); padding: 25px; border-radius: 15px; border: 2px solid #22c55e;">
 
-We consulted **Lily Chen**, pro makeup artist and digital beauty coach, for expert insights:
+We consulted **Melmua**, pro makeup artist and digital beauty coach, for expert insights:
 
-### 💬 Lily's TikTok Trend Rules
+### 💬 Melmua's TikTok Trend Rules
 
 <div style="background: white; padding: 20px; border-radius: 10px; margin: 15px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 

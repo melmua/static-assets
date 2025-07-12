@@ -79,9 +79,9 @@ The key to successful 5-minute makeup is understanding the principles of fast be
 
 <div style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); padding: 25px; border-radius: 15px; border: 2px solid #22c55e;">
 
-We consulted **Emma Brown**, celebrity makeup artist and creator of the "Effortless Skin School," for expert insights:
+We consulted **Melmua**, celebrity makeup artist and creator of the "Effortless Skin School," for expert insights:
 
-### 💬 Emma's Fast Beauty Rules
+### 💬 Melmua's Fast Beauty Rules
 
 <div style="background: white; padding: 20px; border-radius: 10px; margin: 15px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 

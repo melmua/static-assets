@@ -80,9 +80,9 @@ When we evaluate luxury foundations, we look beyond the brand name and focus on 
 
 <div style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); padding: 25px; border-radius: 15px; border: 2px solid #22c55e;">
 
-We consulted **Emily Zhang**, celebrity makeup artist and luxury beauty consultant, for her unfiltered advice:
+We consulted **Melmua**, celebrity makeup artist and luxury beauty consultant, for her unfiltered advice:
 
-### 💬 Emily's No-BS Foundation Rules
+### 💬 Melmua's No-BS Foundation Rules
 
 <div style="background: white; padding: 20px; border-radius: 10px; margin: 15px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 

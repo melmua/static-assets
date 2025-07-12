@@ -79,9 +79,9 @@ Vitamin C comes in various forms, each with different benefits and consideration
 
 <div style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); padding: 25px; border-radius: 15px; border: 2px solid #22c55e;">
 
-We consulted **Dr. Rachel Kim**, board-certified dermatologist and skincare formulator, for expert insights:
+We consulted **Melmua**, board-certified dermatologist and skincare formulator, for expert insights:
 
-### 💬 Dr. Kim's Vitamin C Rules
+### 💬 Melmua's Vitamin C Rules
 
 <div style="background: white; padding: 20px; border-radius: 10px; margin: 15px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 

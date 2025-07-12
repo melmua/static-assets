@@ -78,9 +78,9 @@ Professional contouring is based on understanding facial anatomy and light theor
 
 <div style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); padding: 25px; border-radius: 15px; border: 2px solid #22c55e;">
 
-We consulted **Alex Thompson**, celebrity MUA and instructor at the Global Pro Makeup Academy, for expert insights:
+We consulted **Melmua**, celebrity MUA and instructor at the Global Pro Makeup Academy, for expert insights:
 
-### 💬 Alex's Advanced Contouring Rules
+### 💬 Melmua's Advanced Contouring Rules
 
 <div style="background: white; padding: 20px; border-radius: 10px; margin: 15px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 

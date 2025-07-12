@@ -79,9 +79,9 @@ Sustainable beauty encompasses multiple aspects of environmental and ethical res
 
 <div style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); padding: 25px; border-radius: 15px; border: 2px solid #22c55e;">
 
-We consulted **Maya Patel**, sustainability consultant and founder of "Earth First Beauty," for expert insights:
+We consulted **Melmua**, sustainability consultant and founder of "Earth First Beauty," for expert insights:
 
-### 💬 Maya's Sustainable Beauty Rules
+### 💬 Melmua's Sustainable Beauty Rules
 
 <div style="background: white; padding: 20px; border-radius: 10px; margin: 15px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 

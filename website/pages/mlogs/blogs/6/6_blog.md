@@ -117,6 +117,11 @@ We consulted **Melmua**, board-certified dermatologist and skincare formulator, 
 
 ### 1. 🥇 SkinCeuticals C E Ferulic
 
+<div style="text-align: center; margin: 20px 0;">
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/6/images/mlog6_skinceuticals.jpg" alt="SkinCeuticals C E Ferulic Serum" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+<em>The gold standard in vitamin C serums - SkinCeuticals C E Ferulic</em>
+</div>
+
 <div style="background: white; padding: 20px; border-radius: 10px; margin: 15px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 
 **Type:** 15% L-ascorbic acid + Vitamin E + Ferulic Acid
@@ -136,6 +141,11 @@ We consulted **Melmua**, board-certified dermatologist and skincare formulator, 
 </div>
 
 ### 2. 🥈 Drunk Elephant C-Firma Fresh Day Serum
+
+<div style="text-align: center; margin: 20px 0;">
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/6/images/mlog6_drunk_elephant.jpg" alt="Drunk Elephant C-Firma Fresh Day Serum" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+<em>Innovative fresh-mix formula from Drunk Elephant</em>
+</div>
 
 <div style="background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #ef4444;">
 
@@ -157,6 +167,11 @@ We consulted **Melmua**, board-certified dermatologist and skincare formulator, 
 
 ### 3. 🥉 La Roche-Posay Pure Vitamin C10 Serum
 
+<div style="text-align: center; margin: 20px 0;">
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/6/images/mlog_6_La-Roche-Posay.jpg" alt="La Roche-Posay Pure Vitamin C10 Serum" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+<em>Gentle and accessible vitamin C from La Roche-Posay</em>
+</div>
+
 <div style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #f59e0b;">
 
 **Type:** 10% L-ascorbic acid
@@ -177,6 +192,11 @@ We consulted **Melmua**, board-certified dermatologist and skincare formulator, 
 
 ### 4. 🌿 Klairs Freshly Juiced Vitamin Drop
 
+<div style="text-align: center; margin: 20px 0;">
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/6/images/mlog6_klairs-freshly-juiced.jpg" alt="Klairs Freshly Juiced Vitamin Drop" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+<em>Gentle K-beauty vitamin C from Klairs</em>
+</div>
+
 <div style="background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #6366f1;">
 
 **Type:** 5% ascorbic acid
@@ -196,6 +216,11 @@ We consulted **Melmua**, board-certified dermatologist and skincare formulator, 
 </div>
 
 ### 5. 💧 Paula's Choice C15 Super Booster
+
+<div style="text-align: center; margin: 20px 0;">
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/6/images/mlog6_paula.jpg" alt="Paula's Choice C15 Super Booster" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+<em>Versatile and effective vitamin C from Paula's Choice</em>
+</div>
 
 <div style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #22c55e;">
 
@@ -332,10 +357,9 @@ We consulted **Melmua**, board-certified dermatologist and skincare formulator, 
 
 ## ✨ Final Thoughts
 
-<div style="text-align: center; margin: 30px 0;">
-
-*Vitamin C is the skincare ingredient that delivers real, visible results*
-
+<div style="text-align: center; margin: 20px 0;">
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/6/images/mlog6_final.jpg" alt="Vitamin C Skincare Results" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+<em>Vitamin C is the skincare ingredient that delivers real, visible results</em>
 </div>
 
 <div style="background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%); padding: 25px; border-radius: 15px; border: 2px solid #ec4899;">

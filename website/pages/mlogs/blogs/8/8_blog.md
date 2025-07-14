@@ -116,6 +116,11 @@ We consulted **Melmua**, celebrity hair stylist and salon owner, for expert insi
 
 ### 1. 🔥 Heat Styling Tools
 
+<div style="text-align: center; margin: 20px 0;">
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/8/images/mlog8_heat_styling.jpg" alt="Heat Styling Tools" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+<em>Essential heat styling tools for professional results</em>
+</div>
+
 <div style="background: white; padding: 20px; border-radius: 10px; margin: 15px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 
 **Hair Dryer:**
@@ -138,6 +143,11 @@ We consulted **Melmua**, celebrity hair stylist and salon owner, for expert insi
 </div>
 
 ### 2. 🖌️ Mechanical Tools
+
+<div style="text-align: center; margin: 20px 0;">
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/8/images/mlog8_mechanical_tools.jpg" alt="Mechanical Hair Tools" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+<em>Essential brushes and combs for detangling and styling</em>
+</div>
 
 <div style="background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #ef4444;">
 
@@ -162,6 +172,11 @@ We consulted **Melmua**, celebrity hair stylist and salon owner, for expert insi
 
 ### 3. 🎀 Setting Tools
 
+<div style="text-align: center; margin: 20px 0;">
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/8/images/mlog8_setting_tools.jpg" alt="Setting Tools" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+<em>Tools for setting and holding styles in place</em>
+</div>
+
 <div style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #f59e0b;">
 
 **Rollers:**
@@ -185,6 +200,11 @@ We consulted **Melmua**, celebrity hair stylist and salon owner, for expert insi
 
 ### 4. 🛡️ Protection & Maintenance
 
+<div style="text-align: center; margin: 20px 0;">
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/8/images/mlog8_protection.jpg" alt="Protection and Maintenance Tools" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+<em>Essential products for protecting hair and maintaining tools</em>
+</div>
+
 <div style="background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #6366f1;">
 
 **Heat Protectant:**
@@ -207,6 +227,11 @@ We consulted **Melmua**, celebrity hair stylist and salon owner, for expert insi
 </div>
 
 ### 5. 💎 Blow Dry Brush
+
+<div style="text-align: center; margin: 20px 0;">
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/8/images/mlog8_blow_dry_brush.jpg" alt="Blow Dry Brush" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+<em>The ultimate tool for quick, professional blowouts at home</em>
+</div>
 
 <div style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #22c55e;">
 
@@ -352,10 +377,9 @@ We consulted **Melmua**, celebrity hair stylist and salon owner, for expert insi
 
 ## ✨ Final Thoughts
 
-<div style="text-align: center; margin: 30px 0;">
-
-*The right tools, used correctly, can transform your hair and your confidence*
-
+<div style="text-align: center; margin: 20px 0;">
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/8/images/mlog8_final.jpg" alt="Hair Styling Tools Collection" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+<em>The right tools, used correctly, can transform your hair and your confidence</em>
 </div>
 
 <div style="background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%); padding: 25px; border-radius: 15px; border: 2px solid #ec4899;">

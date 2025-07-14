@@ -116,6 +116,11 @@ We consulted **Melmua**, runway makeup lead and creative consultant, for expert 
 
 ### 1. ✨ Glazed Skin
 
+<div style="text-align: center; margin: 20px 0;">
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/7/images/mlog7_glazed_skin.jpg" alt="Glazed Skin Runway Trend" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+<em>The dewy, plumped-up skin trend that's taking over summer runways</em>
+</div>
+
 <div style="background: white; padding: 20px; border-radius: 10px; margin: 15px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 
 **Runway Inspiration:** Dewy, plumped-up skin that looks naturally radiant
@@ -137,6 +142,11 @@ We consulted **Melmua**, runway makeup lead and creative consultant, for expert 
 </div>
 
 ### 2. 🎨 Watercolor Eyes
+
+<div style="text-align: center; margin: 20px 0;">
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/7/images/mlog7_watercolor.jpg" alt="Watercolor Eyes Runway Trend" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+<em>Soft, sheer washes of color that create the ultimate summer eye look</em>
+</div>
 
 <div style="background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #ef4444;">
 
@@ -160,6 +170,11 @@ We consulted **Melmua**, runway makeup lead and creative consultant, for expert 
 
 ### 3. 🌸 Blush Draping
 
+<div style="text-align: center; margin: 20px 0;">
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/7/images/mlog7_blush_draping.jpg" alt="Blush Draping Runway Trend" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+<em>Extended blush application that creates a lifted, sculpted effect</em>
+</div>
+
 <div style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #f59e0b;">
 
 **Runway Inspiration:** Extended blush from cheeks to temples in upward "C" shape
@@ -182,6 +197,11 @@ We consulted **Melmua**, runway makeup lead and creative consultant, for expert 
 
 ### 4. ✨ Floating Eyeliner
 
+<div style="text-align: center; margin: 20px 0;">
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/7/images/mlog7_floating_eyeliner.jpeg" alt="Floating Eyeliner Runway Trend" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+<em>Graphic liner placement that creates bold, artistic eye looks</em>
+</div>
+
 <div style="background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #6366f1;">
 
 **Runway Inspiration:** Graphic liner away from the lashline in bold colors
@@ -203,6 +223,11 @@ We consulted **Melmua**, runway makeup lead and creative consultant, for expert 
 </div>
 
 ### 5. 💋 Vinyl Lips
+
+<div style="text-align: center; margin: 20px 0;">
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/7/images/mlog7_vinyl_lips.jpeg" alt="Vinyl Lips Runway Trend" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+<em>High-gloss finishes that create the ultimate summer lip look</em>
+</div>
 
 <div style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #22c55e;">
 
@@ -352,10 +377,9 @@ We consulted **Melmua**, runway makeup lead and creative consultant, for expert 
 
 ## ✨ Final Thoughts
 
-<div style="text-align: center; margin: 30px 0;">
-
-*Runway trends are meant to inspire, not intimidate - adapt them to your personal style*
-
+<div style="text-align: center; margin: 20px 0;">
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/7/images/mlog7_final.jpg" alt="Runway Summer Beauty Trends" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+<em>Runway trends are meant to inspire, not intimidate - adapt them to your personal style</em>
 </div>
 
 <div style="background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%); padding: 25px; border-radius: 15px; border: 2px solid #ec4899;">

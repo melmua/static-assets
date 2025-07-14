@@ -136,6 +136,14 @@ We consulted **Melmua**, celebrity makeup artist and creator of the "Effortless 
 
 </div>
 
+<div align="center" style="margin: 30px 0;">
+
+![Perfect Skin Base Application](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/9/images/9_skin_base.jpg)
+
+*<sub>✨ Achieving flawless skin base with strategic coverage and natural finish ✨</sub>*
+
+</div>
+
 #### 🔹 Minute 2: Cheeks & Lips Harmony
 <div style="background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #ef4444;">
 
@@ -155,6 +163,14 @@ We consulted **Melmua**, celebrity makeup artist and creator of the "Effortless 
 
 </div>
 
+<div align="center" style="margin: 30px 0;">
+
+![Cheeks and Lips Harmony](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/9/images/9_cheeks_lips.jpg)
+
+*<sub>🌸 Creating perfect harmony between cheeks and lips with multitasking products 🌸</sub>*
+
+</div>
+
 #### 🔹 Minute 3: Quick Brow Definition
 <div style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #f59e0b;">
 
@@ -171,6 +187,14 @@ We consulted **Melmua**, celebrity makeup artist and creator of the "Effortless 
 - **Result:** Defined but natural brows
 
 **Pro Tip:** Choose a shade that matches your natural brow color ✨
+
+</div>
+
+<div align="center" style="margin: 30px 0;">
+
+![Brow Definition](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/9/images/9_brow_Definition.jpg)
+
+*<sub>💫 Perfect brow definition with natural lift and hold 💫</sub>*
 
 </div>
 
@@ -194,6 +218,14 @@ We consulted **Melmua**, celebrity makeup artist and creator of the "Effortless 
 
 </div>
 
+<div align="center" style="margin: 30px 0;">
+
+![Eye Enhancement](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/9/images/9_eye_enhancement.jpg)
+
+*<sub>👁️ Enhancing eyes with lifted lashes and natural definition 👁️</sub>*
+
+</div>
+
 #### 🔹 Minute 5: Glow & Set
 <div style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); padding: 20px; border-radius: 10px; margin: 15px 0; border-left: 4px solid #22c55e;">
 
@@ -210,6 +242,14 @@ We consulted **Melmua**, celebrity makeup artist and creator of the "Effortless 
 - **Result:** Long-lasting, fresh look
 
 **Pro Tip:** Apply glow products last so they don't get covered up ✨
+
+</div>
+
+<div align="center" style="margin: 30px 0;">
+
+![Glow and Set](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/9/images/9_glow_and_set.jpg)
+
+*<sub>✨ Adding the perfect glow and setting for long-lasting radiance ✨</sub>*
 
 </div>
 
@@ -366,6 +406,14 @@ We consulted **Melmua**, celebrity makeup artist and creator of the "Effortless 
 A 5-minute makeup routine is more than just a time-saver—it's a confidence booster that fits into any lifestyle. By focusing on the essentials and using the right products, you can achieve a polished, natural look that enhances your beauty without taking up precious time.
 
 **Remember:** The goal is polished but effortless. With practice, this routine will become second nature, and you might even find yourself finishing in less than 5 minutes. The key is to focus on what makes you feel confident and beautiful. ✨
+
+</div>
+
+<div align="center" style="margin: 30px 0;">
+
+![Final 5-Minute Makeup Look](https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/9/images/9_final.jpg)
+
+*<sub>🌟 The complete 5-minute makeup transformation - polished, natural, and confidence-boosting 🌟</sub>*
 
 </div>
 

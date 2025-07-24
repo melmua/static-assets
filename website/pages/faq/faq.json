@@ -21,7 +21,7 @@
     "category": "Products"
   },
   {
-    "question": "How does the location-based search work?",
+    "question": "How does the location based search work?",
     "answer": "Our platform uses your location to find makeup artists in your area. You can adjust the search radius and filter artists based on their availability, ratings, and expertise.",
     "iconUrl": "https://raw.githubusercontent.com/melmua/static-assets/refs/heads/main/website/pages/faq/icons/location.svg",
     "iconAlt": "Location icon for search",

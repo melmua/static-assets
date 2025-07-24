@@ -47,6 +47,14 @@ Whether you're just starting your sustainable journey or looking to deepen your 
 
 </div>
 
+<div style="text-align: center; margin: 30px 0;">
+
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/11/images/mlog11_why_sustainable_beauty.jpg" alt="Why Sustainable Beauty Matters" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+
+*Sustainable beauty choices create a positive impact on both personal wellness and planetary health*
+
+</div>
+
 ---
 
 ## 🎯 Understanding Sustainable Beauty
@@ -132,6 +140,14 @@ We consulted **Melmua**, sustainability consultant and founder of "Earth First B
 - **Environmental Impact:** Significantly reduces single-use packaging
 
 **Pro Tip:** Solid cleansers last longer and are perfect for travel ✨
+
+</div>
+
+<div style="text-align: center; margin: 30px 0;">
+
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/11/images/mlog11_cleansers.jpg" alt="Sustainable Cleansers and Skincare" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+
+*Sustainable cleansers and skincare products that prioritize both effectiveness and environmental responsibility*
 
 </div>
 
@@ -252,6 +268,14 @@ We consulted **Melmua**, sustainability consultant and founder of "Earth First B
 
 </div>
 
+<div style="text-align: center; margin: 30px 0;">
+
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/11/images/mlog11_imag2.jpg" alt="Assessing Your Beauty Routine" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+
+*Take inventory of your current beauty routine to identify opportunities for sustainable swaps*
+
+</div>
+
 #### Step 2: Research Sustainable Alternatives ✨
 <div style="background: white; padding: 20px; border-radius: 10px; margin: 15px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 
@@ -272,6 +296,14 @@ We consulted **Melmua**, sustainability consultant and founder of "Earth First B
 - **Plant-Derived:** Natural, renewable ingredients
 - **No Microplastics:** Avoid polyethylene, polypropylene
 - **Reef-Safe:** For sunscreens and body products
+
+</div>
+
+<div style="text-align: center; margin: 30px 0;">
+
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/11/images/mlog11_image3.jpg" alt="Researching Sustainable Beauty Alternatives" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+
+*Research and compare sustainable alternatives to find the best options for your beauty routine*
 
 </div>
 
@@ -318,6 +350,14 @@ We consulted **Melmua**, sustainability consultant and founder of "Earth First B
 - **Support Refill Programs:** Many brands offer refill services
 - **Share with Friends:** Introduce others to sustainable options
 - **Stay Informed:** Follow sustainable beauty news and trends
+
+</div>
+
+<div style="text-align: center; margin: 30px 0;">
+
+<img src="https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/11/images/mlog11_image4.jpg" alt="Implementing Sustainable Beauty Practices" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+
+*Implement sustainable practices in your daily beauty routine for lasting environmental impact*
 
 </div>
 

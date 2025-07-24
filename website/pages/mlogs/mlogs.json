@@ -169,7 +169,7 @@
         "sub": "Tools & Accessories"
       },
       "excerpt": "Everything you need to know about hair styling tools, from basic essentials to professional-grade equipment.",
-      "relatedPosts": ["10", "11"]
+      "relatedPosts": ["9", "11"]
     },
     {
       "id": "9",
@@ -193,28 +193,7 @@
       "excerpt": "Perfect your everyday makeup routine with this quick and easy 5-minute tutorial suitable for beginners.",
       "relatedPosts": ["3", "5"]
     },
-    {
-      "id": "10",
-      "title": "Professional Hair Styling Techniques",
-      "thumbnailUrl": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/10/images/10_thumbnail.avif",
-      "searchKeywords": [
-        "hair styling",
-        "professional techniques",
-        "hairstyling tutorial",
-        "hair care"
-      ],
-      "author": "Melmua",
-      "authorProfilePic": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/authors/sarah-johnson.avif",
-      "lastUpdatedAt": "2025-03-11T15:30:00Z",
-      "blogContent": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/10/10_blog.md",
-      "readingTime": 7,
-      "category": {
-        "main": "beauty-tutorials",
-        "sub": "Hair Styling"
-      },
-      "excerpt": "Your ultimate guide to mastering salon-worthy hair styling with expert techniques, professional tools, and industry secrets.",
-      "relatedPosts": ["8", "9"]
-    },
+
     {
       "id": "11",
       "title": "Sustainable Beauty Products Guide",

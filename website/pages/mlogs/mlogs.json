@@ -37,7 +37,7 @@
         "sub": "Skincare Routines"
       },
       "excerpt": "Unlock the secrets of Korean skincare with this detailed 10-step routine guide. Learn how to achieve that coveted glass skin effect.",
-      "relatedPosts": ["6", "12"]
+      "relatedPosts": ["6", "11"]
     },
     {
       "id": "3",
@@ -125,7 +125,7 @@
         "sub": "Skincare Reviews"
       },
       "excerpt": "An in-depth comparison of the top Vitamin C serums on the market. Find out which one is best for your skincare needs.",
-      "relatedPosts": ["2", "12"]
+      "relatedPosts": ["2", "11"]
     },
     {
       "id": "7",
@@ -169,7 +169,7 @@
         "sub": "Tools & Accessories"
       },
       "excerpt": "Everything you need to know about hair styling tools, from basic essentials to professional-grade equipment.",
-      "relatedPosts": ["11", "12"]
+      "relatedPosts": ["10", "11"]
     },
     {
       "id": "9",
@@ -195,30 +195,8 @@
     },
     {
       "id": "10",
-      "title": "Viral TikTok Beauty Trends Review",
-      "thumbnailUrl": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/10/images/10_thumbnail.avif",
-      "searchKeywords": [
-        "tiktok",
-        "viral trends",
-        "social media",
-        "beauty hacks"
-      ],
-      "author": "Melmua",
-      "authorProfilePic": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/authors/sarah-johnson.avif",
-      "lastUpdatedAt": "2025-03-11T15:30:00Z",
-      "blogContent": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/10/10_blog.md",
-      "readingTime": 7,
-      "category": {
-        "main": "beauty-trends",
-        "sub": "Social Media Trends"
-      },
-      "excerpt": "We test and review the latest viral TikTok beauty trends to separate the hits from the misses.",
-      "relatedPosts": ["7", "9"]
-    },
-    {
-      "id": "11",
       "title": "Professional Hair Styling Techniques",
-      "thumbnailUrl": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/11/images/11_thumbnail.avif",
+      "thumbnailUrl": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/10/images/10_thumbnail.avif",
       "searchKeywords": [
         "hair styling",
         "professional techniques",
@@ -227,20 +205,20 @@
       ],
       "author": "Melmua",
       "authorProfilePic": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/authors/sarah-johnson.avif",
-      "lastUpdatedAt": "2025-03-10T11:15:00Z",
-      "blogContent": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/11/11_blog.md",
+      "lastUpdatedAt": "2025-03-11T15:30:00Z",
+      "blogContent": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/10/10_blog.md",
       "readingTime": 7,
       "category": {
         "main": "beauty-tutorials",
         "sub": "Hair Styling"
       },
-      "excerpt": "Learn professional hair styling techniques from an expert stylist. Master the fundamentals of great hair care.",
-      "relatedPosts": ["8", "12"]
+      "excerpt": "Your ultimate guide to mastering salon-worthy hair styling with expert techniques, professional tools, and industry secrets.",
+      "relatedPosts": ["8", "9"]
     },
     {
-      "id": "12",
+      "id": "11",
       "title": "Sustainable Beauty Products Guide",
-      "thumbnailUrl": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/12/images/12_thumbnail.avif",
+      "thumbnailUrl": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/11/images/11_thumbnail.avif",
       "searchKeywords": [
         "sustainable beauty",
         "eco-friendly",
@@ -249,8 +227,8 @@
       ],
       "author": "Melmua",
       "authorProfilePic": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/authors/sarah-johnson.avif",
-      "lastUpdatedAt": "2025-03-09T14:45:00Z",
-      "blogContent": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/12/12_blog.md",
+      "lastUpdatedAt": "2025-03-10T11:15:00Z",
+      "blogContent": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/mlogs/blogs/11/11_blog.md",
       "readingTime": 7,
       "category": {
         "main": "product-reviews",

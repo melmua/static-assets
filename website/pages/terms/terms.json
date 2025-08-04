@@ -1,0 +1,244 @@
+{
+  "title": "Terms and Conditions",
+  "lastUpdated": {
+    "date": "January 31, 2025",
+    "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/terms/icons/calendar.svg",
+    "icon_alt": "M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+  },
+  "description": "Terms and conditions for using Melmua's services",
+  "intro": "Welcome to Melmua Inc. (\"we,\" \"our,\" or \"us\"). These Terms and Conditions govern your use of our website, mobile application, and services. By accessing or using our services, you agree to be bound by these terms. If you disagree with any part of these terms, you may not access our services.",
+  "sections": [
+    {
+      "id": 1,
+      "title": "Acceptance of Terms",
+      "description": "By using our services, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions.",
+      "items": [
+        {
+          "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/terms/icons/check.svg",
+          "icon_alt": "M5 13l4 4L19 7",
+          "title": "Agreement",
+          "description": "You must be at least 18 years old to use our services or have parental consent."
+        },
+        {
+          "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/terms/icons/update.svg",
+          "icon_alt": "M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15",
+          "title": "Updates",
+          "description": "We may update these terms from time to time, and continued use constitutes acceptance."
+        },
+        {
+          "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/terms/icons/notification.svg",
+          "icon_alt": "M15 17h5l-5 5v-5zM4.19 4.19A4 4 0 004 6v6a4 4 0 004 4h6a4 4 0 004-4V6a4 4 0 00-4-4H8a4 4 0 00-2.81 1.19z",
+          "title": "Notification",
+          "description": "We will notify you of significant changes via email or through our services."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Service Description",
+      "description": "Melmua provides beauty and skincare services, including:",
+      "items": [
+        {
+          "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/terms/icons/beauty.svg",
+          "icon_alt": "M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z",
+          "title": "Beauty Services",
+          "description": "Virtual beauty consultations, product recommendations, and skincare analysis."
+        },
+        {
+          "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/terms/icons/shop.svg",
+          "icon_alt": "M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z",
+          "title": "E-commerce",
+          "description": "Online purchase of beauty and skincare products."
+        },
+        {
+          "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/terms/icons/community.svg",
+          "icon_alt": "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z",
+          "title": "Community Features",
+          "description": "User forums, reviews, and community engagement features."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "User Accounts",
+      "description": "To access certain features, you must create an account. You are responsible for:",
+      "items": [
+        {
+          "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/terms/icons/security.svg",
+          "icon_alt": "M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z",
+          "title": "Account Security",
+          "description": "Maintaining the confidentiality of your login credentials."
+        },
+        {
+          "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/terms/icons/accuracy.svg",
+          "icon_alt": "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z",
+          "title": "Accurate Information",
+          "description": "Providing accurate and complete information when creating your account."
+        },
+        {
+          "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/terms/icons/activity.svg",
+          "icon_alt": "M13 10V3L4 14h7v7l9-11h-7z",
+          "title": "Account Activity",
+          "description": "All activities that occur under your account are your responsibility."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Prohibited Activities",
+      "description": "You agree not to use our services for any unlawful or prohibited purpose, including:",
+      "items": [
+        {
+          "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/terms/icons/forbidden.svg",
+          "icon_alt": "M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636",
+          "title": "Illegal Activities",
+          "description": "Any activities that violate applicable laws or regulations."
+        },
+        {
+          "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/terms/icons/harm.svg",
+          "icon_alt": "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z",
+          "title": "Harmful Content",
+          "description": "Posting content that is harmful, offensive, or violates others' rights."
+        },
+        {
+          "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/terms/icons/spam.svg",
+          "icon_alt": "M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1",
+          "title": "Spam and Abuse",
+          "description": "Sending spam, unsolicited messages, or engaging in harassment."
+        },
+        {
+          "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/terms/icons/hack.svg",
+          "icon_alt": "M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z",
+          "title": "Security Violations",
+          "description": "Attempting to gain unauthorized access to our systems or other users' accounts."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Intellectual Property",
+      "description": "All content on our platform is protected by intellectual property laws.",
+      "items": [
+        {
+          "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/terms/icons/copyright.svg",
+          "icon_alt": "M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z",
+          "title": "Our Rights",
+          "description": "We retain all rights to our platform, content, and intellectual property."
+        },
+        {
+          "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/terms/icons/license.svg",
+          "icon_alt": "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z",
+          "title": "Limited License",
+          "description": "We grant you a limited, non-exclusive license to use our services for personal use."
+        },
+        {
+          "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/terms/icons/user-content.svg",
+          "icon_alt": "M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z",
+          "title": "User Content",
+          "description": "You retain rights to content you create, but grant us license to use it on our platform."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Payment Terms",
+      "description": "For paid services and purchases, the following terms apply:",
+      "items": [
+        {
+          "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/terms/icons/payment.svg",
+          "icon_alt": "M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z",
+          "title": "Payment Methods",
+          "description": "We accept major credit cards, debit cards, and other payment methods as displayed."
+        },
+        {
+          "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/terms/icons/pricing.svg",
+          "icon_alt": "M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1",
+          "title": "Pricing",
+          "description": "All prices are in USD unless otherwise stated and are subject to change without notice."
+        },
+        {
+          "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/terms/icons/refund.svg",
+          "icon_alt": "M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15",
+          "title": "Refunds",
+          "description": "Refund policies are outlined in our separate Shipping & Return Policy."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Privacy and Data",
+      "description": "Your privacy is important to us. Our data practices are governed by our Privacy Policy.",
+      "content": "By using our services, you consent to the collection, use, and sharing of your information as described in our Privacy Policy. We implement appropriate security measures to protect your personal data.",
+      "highlight": {
+        "title": "Data Protection",
+        "description": "We comply with applicable data protection laws, including GDPR for European users. You have rights regarding your personal data as outlined in our Privacy Policy."
+      }
+    },
+    {
+      "id": 8,
+      "title": "Disclaimers and Limitations",
+      "description": "Important limitations on our liability and service availability:",
+      "items": [
+        {
+          "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/terms/icons/disclaimer.svg",
+          "icon_alt": "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z",
+          "title": "Service Availability",
+          "description": "We provide services \"as is\" and cannot guarantee uninterrupted availability."
+        },
+        {
+          "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/terms/icons/medical.svg",
+          "icon_alt": "M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z",
+          "title": "Medical Disclaimer",
+          "description": "Our beauty and skincare advice is not medical advice. Consult healthcare professionals for medical concerns."
+        },
+        {
+          "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/terms/icons/liability.svg",
+          "icon_alt": "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z",
+          "title": "Liability Limitation",
+          "description": "Our liability is limited to the amount you paid for our services in the 12 months preceding the claim."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Termination",
+      "description": "We may terminate or suspend your account and access to our services at any time, with or without cause.",
+      "content": "You may also terminate your account at any time by contacting us or using the account deletion feature. Upon termination, your right to use our services ceases immediately, and we may delete your account and data in accordance with our Privacy Policy.",
+      "items": [
+        {
+          "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/terms/icons/breach.svg",
+          "icon_alt": "M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z",
+          "title": "Termination for Breach",
+          "description": "We may terminate immediately if you violate these terms or engage in prohibited activities."
+        },
+        {
+          "icon": "https://raw.githubusercontent.com/melmua/static-assets/main/website/pages/terms/icons/data.svg",
+          "icon_alt": "M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4",
+          "title": "Data Retention",
+          "description": "Some data may be retained for legal or business purposes as outlined in our Privacy Policy."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Governing Law",
+      "description": "These terms are governed by the laws of the jurisdiction where Melmua Inc. is incorporated.",
+      "content": "Any disputes arising from these terms or your use of our services will be resolved in the courts of our jurisdiction, unless otherwise required by applicable law.",
+      "highlight": {
+        "title": "Dispute Resolution",
+        "description": "We encourage resolving disputes through direct communication. If formal proceedings are necessary, they will be conducted in our jurisdiction's courts."
+      }
+    },
+    {
+      "id": 11,
+      "title": "Contact Information",
+      "description": "If you have questions about these Terms and Conditions, please contact us:",
+      "contactLink": {
+        "text": "contact us",
+        "url": "/contact",
+        "email": "legal@melmua.com"
+      }
+    }
+  ],
+  "footer": "By using Melmua's services, you acknowledge that you have read, understood, and agree to these Terms and Conditions. Thank you for choosing Melmua Inc."
+} 

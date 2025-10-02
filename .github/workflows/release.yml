@@ -3,6 +3,8 @@ name: Release
 # TRIGGER LOGIC: Only run when commits are pushed to main branch
 # This ensures the workflow runs once per push, even if multiple commits are pushed together
 on:
+  pull_request:
+    branches: [main]
   push:
     branches: [main]
 

@@ -1,15 +1,10 @@
 FROM golang:1.24.6
 
-# Install all Go tools using pre-built binaries (avoid all compilation)
-RUN curl -sSL -o /usr/local/bin/goimports https://github.com/golang/tools/releases/download/v0.37.0/goimports_linux_amd64 && \
-    chmod +x /usr/local/bin/goimports
+RUN go install golang.org/x/tools/cmd/goimports@latest
 
-# Install golangci-lint using pre-built binary
-RUN curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b /usr/local/bin v1.61.0
+RUN go install github.com/golangci/golangci-lint/cmd/golangci-lint@latest
 
-# Install govulncheck using pre-built binary
-RUN curl -sSL -o /usr/local/bin/govulncheck https://go.dev/dl/govulncheck-latest-linux-amd64 && \
-    chmod +x /usr/local/bin/govulncheck
+RUN go install golang.org/x/vuln/cmd/govulncheck@latest
 
 # Install zsh and dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
@@ -48,5 +43,8 @@ RUN ARCH=$(dpkg --print-architecture) && \
 
 # Set working directory
 WORKDIR /workspace
+
+# Copy usage.md into Docker image
+COPY docker/usage.md /workspace/usage.md
 
 CMD ["/usr/bin/zsh"]

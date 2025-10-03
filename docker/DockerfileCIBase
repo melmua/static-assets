@@ -38,7 +38,9 @@ RUN wget -qO - 'https://proget.makedeb.org/debian-feeds/prebuilt-mpr.pub' | gpg 
 
 # Install Node.js 20.18.0 and pnpm
 ENV NODE_VERSION=20.18.0
-RUN curl -fsSL https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}-linux-x64.tar.xz -o node.tar.xz && \
+RUN ARCH=$(dpkg --print-architecture) && \
+    if [ "$ARCH" = "amd64" ]; then NODEARCH="x64"; elif [ "$ARCH" = "arm64" ]; then NODEARCH="arm64"; else echo "Unsupported architecture: $ARCH" && exit 1; fi && \
+    curl -fsSL https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}-linux-${NODEARCH}.tar.xz -o node.tar.xz && \
     tar -xJf node.tar.xz -C /usr/local --strip-components=1 && \
     rm node.tar.xz && \
     npm install -g pnpm@9.14.4 && \

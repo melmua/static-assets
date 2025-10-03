@@ -1,0 +1,50 @@
+FROM golang:1.24.6
+
+RUN go install golang.org/x/tools/cmd/goimports@latest
+
+RUN go install github.com/golangci/golangci-lint/cmd/golangci-lint@latest
+
+RUN go install golang.org/x/vuln/cmd/govulncheck@latest
+
+# Install zsh and dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    curl \
+    wget \
+    git \
+    ca-certificates \
+    zsh \
+    gnupg \
+    lsb-release \
+    xz-utils \
+    && chsh -s /usr/bin/zsh \
+    && rm -rf /var/lib/apt/lists/* \
+    && apt-get clean
+
+# Set zsh as default shell
+ENV SHELL=/usr/bin/zsh
+
+# Install Just
+RUN wget -qO - 'https://proget.makedeb.org/debian-feeds/prebuilt-mpr.pub' | gpg --dearmor | tee /usr/share/keyrings/prebuilt-mpr-archive-keyring.gpg > /dev/null && \
+    echo "deb [arch=all,$(dpkg --print-architecture) signed-by=/usr/share/keyrings/prebuilt-mpr-archive-keyring.gpg] https://proget.makedeb.org prebuilt-mpr $(lsb_release -cs)" | tee /etc/apt/sources.list.d/prebuilt-mpr.list && \
+    apt-get update && \
+    apt-get install -y --no-install-recommends just && \
+    rm -rf /var/lib/apt/lists/* \
+    && apt-get clean
+
+# Install Node.js 20.18.0 and pnpm
+ENV NODE_VERSION=20.18.0
+RUN ARCH=$(dpkg --print-architecture) && \
+    if [ "$ARCH" = "amd64" ]; then NODEARCH="x64"; elif [ "$ARCH" = "arm64" ]; then NODEARCH="arm64"; else echo "Unsupported architecture: $ARCH" && exit 1; fi && \
+    curl -fsSL https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}-linux-${NODEARCH}.tar.xz -o node.tar.xz && \
+    tar -xJf node.tar.xz -C /usr/local --strip-components=1 && \
+    rm node.tar.xz && \
+    npm install -g pnpm@9.14.4 && \
+    npm cache clean --force
+
+# Set working directory
+WORKDIR /workspace
+
+# Copy usage.md into Docker image
+COPY docker/usage.md /workspace/usage.md
+
+CMD ["/usr/bin/zsh"]

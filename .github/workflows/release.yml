@@ -1,9 +1,11 @@
 name: Release
 
-# TRIGGER LOGIC: Only run when commits are pushed to main branch
-# This ensures the workflow runs once per push, even if multiple commits are pushed together
+# TRIGGER LOGIC: Run on push to main and pull requests to main
+# Image optimization jobs only run on push, Docker build runs on both
 on:
   push:
+    branches: [main]
+  pull_request:
     branches: [main]
 
 # PERMISSIONS: Grant necessary permissions to GITHUB_TOKEN
@@ -11,11 +13,14 @@ permissions:
   contents: write          # Allow reading/writing repository contents
   pull-requests: write     # Allow creating/updating pull requests
   actions: read           # Allow reading workflow information
+  packages: write         # Allow publishing to GitHub Container Registry
 
 jobs:
   setup-and-convert:
     name: Setup Environment & Convert Images to AVIF
     runs-on: ubuntu-latest
+    # Only run on push events to main, not on pull requests
+    if: github.event_name == 'push'
     outputs:
       conversion_count: ${{ steps.convert-images.outputs.conversion_count }}
     
@@ -394,28 +399,101 @@ jobs:
           rm -f all_release_branches.txt sorted_branches.txt
           echo "✅ Temporary files cleaned up"
 
-  workflow-summary:
-    name: Workflow Summary
+  docker-image-build-push:
+    name: Build & Push Docker Image (Push Event)
     runs-on: ubuntu-latest
-    needs: [setup-and-convert, update-file-references, commit-changes, create-release, cleanup-old-releases]
-    if: always()
-    
+    needs: [setup-and-convert, create-release]
+    # Only run on push events when images were converted
+    if: github.event_name == 'push' &&  (contains(github.event.pull_request.changed_files, '.github/workflows/release.yml') || contains(github.event.pull_request.changed_files, 'docker/'))
+        
     steps:
-      # REPORTING: Provide summary of workflow execution
-      - name: Summary
-        run: |
-          echo "🎉 Image Optimization Workflow Summary"
-          echo "======================================"
-          
-          # CONDITIONAL REPORTING: Show different messages based on conversion results
-          if [ "${{ needs.setup-and-convert.outputs.conversion_count }}" -gt 0 ]; then
-            # SUCCESS CASE: Images were converted and processed
-            echo "✅ Images converted: ${{ needs.setup-and-convert.outputs.conversion_count }}"
-            echo "✅ File references updated (MD/JSON/YAML)"
-            echo "✅ Changes committed to main"
-            echo "✅ Release branch created"
-            echo "✅ Old branches cleaned up"
-          else
-            # NO-OP CASE: No images needed conversion
-            echo "ℹ️ No images needed conversion"
-          fi 
+      # SETUP PHASE: Prepare the environment
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # DOCKER BUILDX: Set up Docker Buildx for multi-platform builds
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      # GHCR AUTHENTICATION: Login to GitHub Container Registry
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      # METADATA EXTRACTION: Extract metadata for proper tagging
+      - name: Extract metadata
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ghcr.io/${{ github.repository_owner }}/ci-base
+          tags: |
+            type=raw,value=latest,enable=true
+            type=raw,value=${{ needs.create-release.outputs.branch_name }},enable=true
+            type=sha,prefix=${{ github.sha }},suffix=-{{date 'DDMMYYYY-HHmmss'}}
+
+      # BUILD AND PUSH: Build and push Docker image with caching
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: docker/DockerfileCIBase
+          platforms: linux/amd64,linux/arm64
+          # Always push since this job only runs on push to main
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+          build-args: |
+            BUILD_DATE=${{ github.run_number }}
+            VERSION=${{ github.sha }}
+
+  build-docker-image:
+    name: Build Docker Image (Pull Request)
+    runs-on: ubuntu-latest
+    # Only run on pull request events
+    if: github.event_name == 'pull_request'
+        
+    steps:
+      # SETUP PHASE: Prepare the environment
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # DOCKER BUILDX: Set up Docker Buildx for multi-platform builds
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      # METADATA EXTRACTION: Extract metadata for proper tagging
+      - name: Extract metadata
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ghcr.io/${{ github.repository_owner }}/ci-base
+          tags: |
+            type=raw,value=pr-${{ github.event.number }},enable=true
+            type=sha,prefix=${{ github.sha }},suffix=-{{date 'DDMMYYYY-HHmmss'}}
+
+      # BUILD AND PUSH: Build and push Docker image with caching
+      - name: Build Docker image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: docker/DockerfileCIBase
+          platforms: linux/amd64,linux/arm64
+          push: false
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+          build-args: |
+            BUILD_DATE=${{ github.run_number }}
+            VERSION=${{ github.sha }}
